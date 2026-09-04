@@ -1,0 +1,122 @@
+[
+  {
+    "id": "CAM_011",
+    "name": "Maharaj Bada",
+    "corridor": "Old city loop",
+    "lat": 26.2216,
+    "lng": 78.1789,
+    "direction": "SOUTH",
+    "lanes": 3,
+    "status": "online"
+  },
+  {
+    "id": "CAM_015",
+    "name": "Kampoo",
+    "corridor": "Kampoo Road",
+    "lat": 26.2174,
+    "lng": 78.1718,
+    "direction": "EAST",
+    "lanes": 3,
+    "status": "online"
+  },
+  {
+    "id": "CAM_023",
+    "name": "Gwalior Junction",
+    "corridor": "Station approach",
+    "lat": 26.2151,
+    "lng": 78.1822,
+    "direction": "EAST",
+    "lanes": 4,
+    "status": "online"
+  },
+  {
+    "id": "CAM_028",
+    "name": "Nazar Bagh",
+    "corridor": "City Centre south",
+    "lat": 26.2132,
+    "lng": 78.1894,
+    "direction": "NORTH",
+    "lanes": 3,
+    "status": "online"
+  },
+  {
+    "id": "CAM_034",
+    "name": "Lashkar",
+    "corridor": "Lashkar market",
+    "lat": 26.2058,
+    "lng": 78.1688,
+    "direction": "NORTH",
+    "lanes": 3,
+    "status": "online"
+  },
+  {
+    "id": "CAM_042",
+    "name": "Phoolbagh",
+    "corridor": "Race Course Road",
+    "lat": 26.2082,
+    "lng": 78.1756,
+    "direction": "NORTH",
+    "lanes": 3,
+    "status": "online"
+  },
+  {
+    "id": "CAM_049",
+    "name": "Padav Pul",
+    "corridor": "Padav",
+    "lat": 26.2106,
+    "lng": 78.1858,
+    "direction": "WEST",
+    "lanes": 3,
+    "status": "online"
+  },
+  {
+    "id": "CAM_057",
+    "name": "City Centre",
+    "corridor": "NH-44 / City Centre",
+    "lat": 26.2184,
+    "lng": 78.1938,
+    "direction": "WEST",
+    "lanes": 4,
+    "status": "online"
+  },
+  {
+    "id": "CAM_062",
+    "name": "Gole ka Mandir",
+    "corridor": "Gole ka Mandir Rd",
+    "lat": 26.2272,
+    "lng": 78.1876,
+    "direction": "SOUTH",
+    "lanes": 3,
+    "status": "online"
+  },
+  {
+    "id": "CAM_076",
+    "name": "DD Nagar",
+    "corridor": "University west",
+    "lat": 26.2254,
+    "lng": 78.1988,
+    "direction": "EAST",
+    "lanes": 3,
+    "status": "online"
+  },
+  {
+    "id": "CAM_081",
+    "name": "Thatipur Crossing",
+    "corridor": "University Road",
+    "lat": 26.2312,
+    "lng": 78.2071,
+    "direction": "SOUTH",
+    "lanes": 3,
+    "status": "degraded"
+  },
+  {
+    "id": "CAM_103",
+    "name": "Airport Road",
+    "corridor": "AB Road west",
+    "lat": 26.2241,
+    "lng": 78.1688,
+    "direction": "EAST",
+    "lanes": 3,
+    "status": "online"
+  }
+]

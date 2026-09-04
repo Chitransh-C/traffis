@@ -1,0 +1,802 @@
+[
+  {
+    "id": "V001",
+    "plate": "MP07WL0001",
+    "type": "car",
+    "color": "Red",
+    "watchlist": true,
+    "ownerHint": "Private / irregular"
+  },
+  {
+    "id": "V002",
+    "plate": "MP04ST3344",
+    "type": "car",
+    "color": "Red",
+    "watchlist": true,
+    "ownerHint": "App taxi"
+  },
+  {
+    "id": "V003",
+    "plate": "MP07TR8821",
+    "type": "car",
+    "color": "White",
+    "watchlist": true,
+    "ownerHint": "Office pool"
+  },
+  {
+    "id": "V004",
+    "plate": "MP07PK3951",
+    "type": "car",
+    "color": "Silver",
+    "watchlist": false,
+    "ownerHint": "Office pool"
+  },
+  {
+    "id": "V005",
+    "plate": "MP04JB5661",
+    "type": "car",
+    "color": "Maroon",
+    "watchlist": false,
+    "ownerHint": "Private commuter"
+  },
+  {
+    "id": "V006",
+    "plate": "MP04LB9882",
+    "type": "car",
+    "color": "Black",
+    "watchlist": false,
+    "ownerHint": "Private commuter"
+  },
+  {
+    "id": "V007",
+    "plate": "MP07KP6265",
+    "type": "car",
+    "color": "Grey",
+    "watchlist": false,
+    "ownerHint": "Private commuter"
+  },
+  {
+    "id": "V008",
+    "plate": "MP07LB8281",
+    "type": "car",
+    "color": "Blue",
+    "watchlist": false,
+    "ownerHint": "Private / irregular"
+  },
+  {
+    "id": "V009",
+    "plate": "MP07FL7982",
+    "type": "car",
+    "color": "White",
+    "watchlist": false,
+    "ownerHint": "Private commuter"
+  },
+  {
+    "id": "V010",
+    "plate": "MP04HJ8695",
+    "type": "car",
+    "color": "Blue",
+    "watchlist": false,
+    "ownerHint": "App taxi"
+  },
+  {
+    "id": "V011",
+    "plate": "MP07AP2257",
+    "type": "car",
+    "color": "Black",
+    "watchlist": false,
+    "ownerHint": "App taxi"
+  },
+  {
+    "id": "V012",
+    "plate": "MP07AT2946",
+    "type": "car",
+    "color": "Silver",
+    "watchlist": false,
+    "ownerHint": "Office pool"
+  },
+  {
+    "id": "V013",
+    "plate": "MP07TR8427",
+    "type": "car",
+    "color": "Maroon",
+    "watchlist": false,
+    "ownerHint": "App taxi"
+  },
+  {
+    "id": "V014",
+    "plate": "MP09BK2315",
+    "type": "car",
+    "color": "Grey",
+    "watchlist": false,
+    "ownerHint": "App taxi"
+  },
+  {
+    "id": "V015",
+    "plate": "MP09BJ4251",
+    "type": "car",
+    "color": "Blue",
+    "watchlist": false,
+    "ownerHint": "Private / irregular"
+  },
+  {
+    "id": "V016",
+    "plate": "MP07VT8505",
+    "type": "car",
+    "color": "Blue",
+    "watchlist": false,
+    "ownerHint": "App taxi"
+  },
+  {
+    "id": "V017",
+    "plate": "MP07KB1756",
+    "type": "car",
+    "color": "Silver",
+    "watchlist": false,
+    "ownerHint": "Office pool"
+  },
+  {
+    "id": "V018",
+    "plate": "MP07AV6469",
+    "type": "car",
+    "color": "Silver",
+    "watchlist": false,
+    "ownerHint": "App taxi"
+  },
+  {
+    "id": "V019",
+    "plate": "MP09MH8599",
+    "type": "car",
+    "color": "Black",
+    "watchlist": false,
+    "ownerHint": "Private commuter"
+  },
+  {
+    "id": "V020",
+    "plate": "MP07AC2285",
+    "type": "car",
+    "color": "Blue",
+    "watchlist": false,
+    "ownerHint": "Private commuter"
+  },
+  {
+    "id": "V021",
+    "plate": "MP07LM4921",
+    "type": "car",
+    "color": "White",
+    "watchlist": false,
+    "ownerHint": "Office pool"
+  },
+  {
+    "id": "V022",
+    "plate": "MP09LV3192",
+    "type": "car",
+    "color": "Red",
+    "watchlist": false,
+    "ownerHint": "Private / irregular"
+  },
+  {
+    "id": "V023",
+    "plate": "MP07TT3708",
+    "type": "car",
+    "color": "Maroon",
+    "watchlist": false,
+    "ownerHint": "App taxi"
+  },
+  {
+    "id": "V024",
+    "plate": "MP07JB5622",
+    "type": "car",
+    "color": "White",
+    "watchlist": false,
+    "ownerHint": "Office pool"
+  },
+  {
+    "id": "V025",
+    "plate": "MP07JV2640",
+    "type": "car",
+    "color": "White",
+    "watchlist": false,
+    "ownerHint": "App taxi"
+  },
+  {
+    "id": "V026",
+    "plate": "MP04HP1221",
+    "type": "car",
+    "color": "Grey",
+    "watchlist": false,
+    "ownerHint": "Private commuter"
+  },
+  {
+    "id": "V027",
+    "plate": "MP07RC1402",
+    "type": "car",
+    "color": "Black",
+    "watchlist": false,
+    "ownerHint": "App taxi"
+  },
+  {
+    "id": "V028",
+    "plate": "MP07HA6392",
+    "type": "car",
+    "color": "Black",
+    "watchlist": false,
+    "ownerHint": "App taxi"
+  },
+  {
+    "id": "V029",
+    "plate": "MP04BB7826",
+    "type": "car",
+    "color": "Blue",
+    "watchlist": false,
+    "ownerHint": "Private / irregular"
+  },
+  {
+    "id": "V030",
+    "plate": "MP09CV4656",
+    "type": "car",
+    "color": "Silver",
+    "watchlist": false,
+    "ownerHint": "Office pool"
+  },
+  {
+    "id": "V031",
+    "plate": "MP07JA5573",
+    "type": "car",
+    "color": "Grey",
+    "watchlist": false,
+    "ownerHint": "App taxi"
+  },
+  {
+    "id": "V032",
+    "plate": "MP07JF5662",
+    "type": "car",
+    "color": "Red",
+    "watchlist": false,
+    "ownerHint": "Private commuter"
+  },
+  {
+    "id": "V033",
+    "plate": "MP04LJ9841",
+    "type": "car",
+    "color": "Blue",
+    "watchlist": false,
+    "ownerHint": "App taxi"
+  },
+  {
+    "id": "V034",
+    "plate": "MP07LK6433",
+    "type": "car",
+    "color": "Red",
+    "watchlist": false,
+    "ownerHint": "Private commuter"
+  },
+  {
+    "id": "V035",
+    "plate": "MP07LH8506",
+    "type": "car",
+    "color": "Black",
+    "watchlist": false,
+    "ownerHint": "Office pool"
+  },
+  {
+    "id": "V036",
+    "plate": "MP04BJ2888",
+    "type": "car",
+    "color": "White",
+    "watchlist": false,
+    "ownerHint": "Private / irregular"
+  },
+  {
+    "id": "V037",
+    "plate": "MP04JV6546",
+    "type": "car",
+    "color": "White",
+    "watchlist": false,
+    "ownerHint": "App taxi"
+  },
+  {
+    "id": "V038",
+    "plate": "MP09CM7157",
+    "type": "car",
+    "color": "Maroon",
+    "watchlist": false,
+    "ownerHint": "Office pool"
+  },
+  {
+    "id": "V039",
+    "plate": "MP09RP8559",
+    "type": "car",
+    "color": "Maroon",
+    "watchlist": false,
+    "ownerHint": "App taxi"
+  },
+  {
+    "id": "V040",
+    "plate": "MP07KM2412",
+    "type": "car",
+    "color": "White",
+    "watchlist": false,
+    "ownerHint": "App taxi"
+  },
+  {
+    "id": "V041",
+    "plate": "MP07VV5383",
+    "type": "car",
+    "color": "Maroon",
+    "watchlist": false,
+    "ownerHint": "Office pool"
+  },
+  {
+    "id": "V042",
+    "plate": "MP07LB9325",
+    "type": "car",
+    "color": "Red",
+    "watchlist": false,
+    "ownerHint": "Office pool"
+  },
+  {
+    "id": "V043",
+    "plate": "MP07LH6573",
+    "type": "car",
+    "color": "Silver",
+    "watchlist": false,
+    "ownerHint": "Private / irregular"
+  },
+  {
+    "id": "V044",
+    "plate": "MP07BR7601",
+    "type": "car",
+    "color": "Maroon",
+    "watchlist": false,
+    "ownerHint": "Private commuter"
+  },
+  {
+    "id": "V045",
+    "plate": "MP07BT4013",
+    "type": "car",
+    "color": "Grey",
+    "watchlist": false,
+    "ownerHint": "Private commuter"
+  },
+  {
+    "id": "V046",
+    "plate": "MP04TC3858",
+    "type": "car",
+    "color": "Maroon",
+    "watchlist": false,
+    "ownerHint": "Office pool"
+  },
+  {
+    "id": "V047",
+    "plate": "MP07JJ4738",
+    "type": "car",
+    "color": "Silver",
+    "watchlist": false,
+    "ownerHint": "App taxi"
+  },
+  {
+    "id": "V048",
+    "plate": "MP04JC7469",
+    "type": "car",
+    "color": "Red",
+    "watchlist": false,
+    "ownerHint": "Private commuter"
+  },
+  {
+    "id": "V049",
+    "plate": "MP07VR6138",
+    "type": "bike",
+    "color": "Blue",
+    "watchlist": false,
+    "ownerHint": "Daily commuter"
+  },
+  {
+    "id": "V050",
+    "plate": "MP07AV9025",
+    "type": "bike",
+    "color": "Maroon",
+    "watchlist": false,
+    "ownerHint": "Delivery rider"
+  },
+  {
+    "id": "V051",
+    "plate": "MP04VJ4936",
+    "type": "bike",
+    "color": "Blue",
+    "watchlist": false,
+    "ownerHint": "Delivery rider"
+  },
+  {
+    "id": "V052",
+    "plate": "MP04BB5857",
+    "type": "bike",
+    "color": "Red",
+    "watchlist": false,
+    "ownerHint": "Daily commuter"
+  },
+  {
+    "id": "V053",
+    "plate": "MP04BC4479",
+    "type": "bike",
+    "color": "Black",
+    "watchlist": false,
+    "ownerHint": "Local two-wheeler"
+  },
+  {
+    "id": "V054",
+    "plate": "MP07MM3060",
+    "type": "bike",
+    "color": "White",
+    "watchlist": false,
+    "ownerHint": "Local two-wheeler"
+  },
+  {
+    "id": "V055",
+    "plate": "MP07VM5797",
+    "type": "bike",
+    "color": "Black",
+    "watchlist": false,
+    "ownerHint": "Daily commuter"
+  },
+  {
+    "id": "V056",
+    "plate": "MP04KL9054",
+    "type": "bike",
+    "color": "White",
+    "watchlist": false,
+    "ownerHint": "Local two-wheeler"
+  },
+  {
+    "id": "V057",
+    "plate": "MP04AA3293",
+    "type": "bike",
+    "color": "White",
+    "watchlist": false,
+    "ownerHint": "Local two-wheeler"
+  },
+  {
+    "id": "V058",
+    "plate": "MP09KR1689",
+    "type": "bike",
+    "color": "Silver",
+    "watchlist": false,
+    "ownerHint": "Daily commuter"
+  },
+  {
+    "id": "V059",
+    "plate": "MP07RT8255",
+    "type": "bike",
+    "color": "Red",
+    "watchlist": false,
+    "ownerHint": "Delivery rider"
+  },
+  {
+    "id": "V060",
+    "plate": "MP07PL3062",
+    "type": "bike",
+    "color": "Black",
+    "watchlist": false,
+    "ownerHint": "Delivery rider"
+  },
+  {
+    "id": "V061",
+    "plate": "MP07BC3784",
+    "type": "bike",
+    "color": "Silver",
+    "watchlist": false,
+    "ownerHint": "Daily commuter"
+  },
+  {
+    "id": "V062",
+    "plate": "MP04PV3531",
+    "type": "bike",
+    "color": "White",
+    "watchlist": false,
+    "ownerHint": "Delivery rider"
+  },
+  {
+    "id": "V063",
+    "plate": "MP07VP3157",
+    "type": "bike",
+    "color": "Silver",
+    "watchlist": false,
+    "ownerHint": "Local two-wheeler"
+  },
+  {
+    "id": "V064",
+    "plate": "MP07RA9083",
+    "type": "bike",
+    "color": "Red",
+    "watchlist": false,
+    "ownerHint": "Daily commuter"
+  },
+  {
+    "id": "V065",
+    "plate": "MP04PA5799",
+    "type": "bike",
+    "color": "Grey",
+    "watchlist": false,
+    "ownerHint": "Local two-wheeler"
+  },
+  {
+    "id": "V066",
+    "plate": "MP04LB1590",
+    "type": "bike",
+    "color": "White",
+    "watchlist": false,
+    "ownerHint": "Delivery rider"
+  },
+  {
+    "id": "V067",
+    "plate": "MP07VJ1928",
+    "type": "bike",
+    "color": "Red",
+    "watchlist": false,
+    "ownerHint": "Daily commuter"
+  },
+  {
+    "id": "V068",
+    "plate": "MP04JM2161",
+    "type": "bike",
+    "color": "Black",
+    "watchlist": false,
+    "ownerHint": "Delivery rider"
+  },
+  {
+    "id": "V069",
+    "plate": "MP04RR9770",
+    "type": "bike",
+    "color": "Silver",
+    "watchlist": false,
+    "ownerHint": "Local two-wheeler"
+  },
+  {
+    "id": "V070",
+    "plate": "MP04JL5971",
+    "type": "bike",
+    "color": "White",
+    "watchlist": false,
+    "ownerHint": "Daily commuter"
+  },
+  {
+    "id": "V071",
+    "plate": "MP07MT5601",
+    "type": "bike",
+    "color": "Grey",
+    "watchlist": false,
+    "ownerHint": "Local two-wheeler"
+  },
+  {
+    "id": "V072",
+    "plate": "MP07VF2925",
+    "type": "bike",
+    "color": "Black",
+    "watchlist": false,
+    "ownerHint": "Local two-wheeler"
+  },
+  {
+    "id": "V073",
+    "plate": "MP07BB9267",
+    "type": "bike",
+    "color": "Maroon",
+    "watchlist": false,
+    "ownerHint": "Daily commuter"
+  },
+  {
+    "id": "V074",
+    "plate": "MP07KF1686",
+    "type": "bike",
+    "color": "Silver",
+    "watchlist": false,
+    "ownerHint": "Local two-wheeler"
+  },
+  {
+    "id": "V075",
+    "plate": "MP07CP4211",
+    "type": "bike",
+    "color": "Red",
+    "watchlist": false,
+    "ownerHint": "Delivery rider"
+  },
+  {
+    "id": "V076",
+    "plate": "MP07JC9784",
+    "type": "bike",
+    "color": "Red",
+    "watchlist": false,
+    "ownerHint": "Daily commuter"
+  },
+  {
+    "id": "V077",
+    "plate": "MP09BM9388",
+    "type": "bike",
+    "color": "Black",
+    "watchlist": false,
+    "ownerHint": "Local two-wheeler"
+  },
+  {
+    "id": "V078",
+    "plate": "MP07JF4965",
+    "type": "bike",
+    "color": "Blue",
+    "watchlist": false,
+    "ownerHint": "Delivery rider"
+  },
+  {
+    "id": "V079",
+    "plate": "MP04JJ9576",
+    "type": "bike",
+    "color": "Grey",
+    "watchlist": false,
+    "ownerHint": "Daily commuter"
+  },
+  {
+    "id": "V080",
+    "plate": "MP07TP4924",
+    "type": "bike",
+    "color": "White",
+    "watchlist": false,
+    "ownerHint": "Delivery rider"
+  },
+  {
+    "id": "V081",
+    "plate": "MP07BF7277",
+    "type": "truck",
+    "color": "Black",
+    "watchlist": false,
+    "ownerHint": "Construction haul"
+  },
+  {
+    "id": "V082",
+    "plate": "MP04MK4700",
+    "type": "truck",
+    "color": "Red",
+    "watchlist": false,
+    "ownerHint": "Construction haul"
+  },
+  {
+    "id": "V083",
+    "plate": "MP07VP3320",
+    "type": "truck",
+    "color": "Blue",
+    "watchlist": false,
+    "ownerHint": "Wholesale supply"
+  },
+  {
+    "id": "V084",
+    "plate": "MP07BB1157",
+    "type": "truck",
+    "color": "Silver",
+    "watchlist": false,
+    "ownerHint": "Logistics fleet"
+  },
+  {
+    "id": "V085",
+    "plate": "MP07BL3995",
+    "type": "truck",
+    "color": "Grey",
+    "watchlist": false,
+    "ownerHint": "Wholesale supply"
+  },
+  {
+    "id": "V086",
+    "plate": "MP09VJ6672",
+    "type": "truck",
+    "color": "Maroon",
+    "watchlist": false,
+    "ownerHint": "Wholesale supply"
+  },
+  {
+    "id": "V087",
+    "plate": "MP07FM4740",
+    "type": "truck",
+    "color": "Silver",
+    "watchlist": false,
+    "ownerHint": "Logistics fleet"
+  },
+  {
+    "id": "V088",
+    "plate": "MP07JV1700",
+    "type": "truck",
+    "color": "Black",
+    "watchlist": false,
+    "ownerHint": "Logistics fleet"
+  },
+  {
+    "id": "V089",
+    "plate": "MP07PP6085",
+    "type": "truck",
+    "color": "White",
+    "watchlist": false,
+    "ownerHint": "Wholesale supply"
+  },
+  {
+    "id": "V090",
+    "plate": "MP07VP5201",
+    "type": "truck",
+    "color": "Blue",
+    "watchlist": false,
+    "ownerHint": "Wholesale supply"
+  },
+  {
+    "id": "V091",
+    "plate": "MP04MJ6108",
+    "type": "truck",
+    "color": "Silver",
+    "watchlist": false,
+    "ownerHint": "Construction haul"
+  },
+  {
+    "id": "V092",
+    "plate": "MP07AJ7394",
+    "type": "truck",
+    "color": "Red",
+    "watchlist": false,
+    "ownerHint": "Construction haul"
+  },
+  {
+    "id": "V093",
+    "plate": "MP07LC3479",
+    "type": "truck",
+    "color": "White",
+    "watchlist": false,
+    "ownerHint": "Wholesale supply"
+  },
+  {
+    "id": "V094",
+    "plate": "MP09MC4214",
+    "type": "truck",
+    "color": "Maroon",
+    "watchlist": false,
+    "ownerHint": "Construction haul"
+  },
+  {
+    "id": "V095",
+    "plate": "MP07KF5963",
+    "type": "truck",
+    "color": "Black",
+    "watchlist": false,
+    "ownerHint": "Logistics fleet"
+  },
+  {
+    "id": "V096",
+    "plate": "MP07AF8473",
+    "type": "truck",
+    "color": "Grey",
+    "watchlist": false,
+    "ownerHint": "Logistics fleet"
+  },
+  {
+    "id": "V097",
+    "plate": "MP07VA9014",
+    "type": "truck",
+    "color": "Black",
+    "watchlist": false,
+    "ownerHint": "Wholesale supply"
+  },
+  {
+    "id": "V098",
+    "plate": "MP07AR7384",
+    "type": "truck",
+    "color": "Maroon",
+    "watchlist": false,
+    "ownerHint": "Logistics fleet"
+  },
+  {
+    "id": "V099",
+    "plate": "MP09AL2964",
+    "type": "truck",
+    "color": "Red",
+    "watchlist": false,
+    "ownerHint": "Wholesale supply"
+  },
+  {
+    "id": "V100",
+    "plate": "MP09LP5824",
+    "type": "truck",
+    "color": "Grey",
+    "watchlist": false,
+    "ownerHint": "Wholesale supply"
+  }
+]

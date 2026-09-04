@@ -1,0 +1,2136 @@
+[
+  {
+    "id": "AL_11",
+    "level": "info",
+    "title": "Low OCR confidence",
+    "detail": "MP07BB1157 at CAM_103 · 88.1%",
+    "timestamp": 1787965529741.4324,
+    "plate": "MP07BB1157",
+    "cameraId": "CAM_103"
+  },
+  {
+    "id": "AL_10",
+    "level": "info",
+    "title": "Low OCR confidence",
+    "detail": "MP07BF7277 at CAM_062 · 86.8%",
+    "timestamp": 1787967703727.5535,
+    "plate": "MP07BF7277",
+    "cameraId": "CAM_062"
+  },
+  {
+    "id": "AL_12",
+    "level": "info",
+    "title": "Low OCR confidence",
+    "detail": "MP09MC4214 at CAM_011 · 86.3%",
+    "timestamp": 1787968740828.739,
+    "plate": "MP09MC4214",
+    "cameraId": "CAM_011"
+  },
+  {
+    "id": "AL_1",
+    "level": "info",
+    "title": "Low OCR confidence",
+    "detail": "MP07AV9025 at CAM_015 · 86.2%",
+    "timestamp": 1787990699363.2686,
+    "plate": "MP07AV9025",
+    "cameraId": "CAM_015"
+  },
+  {
+    "id": "AL_241",
+    "level": "warn",
+    "title": "Camera degraded",
+    "detail": "CAM_081 Thatipur intermittent FOV drop 14:00–15:20 most weekdays",
+    "timestamp": 1787992200000,
+    "cameraId": "CAM_081"
+  },
+  {
+    "id": "AL_7",
+    "level": "info",
+    "title": "Low OCR confidence",
+    "detail": "MP09BM9388 at CAM_034 · 86.6%",
+    "timestamp": 1787994177310.4705,
+    "plate": "MP09BM9388",
+    "cameraId": "CAM_034"
+  },
+  {
+    "id": "AL_8",
+    "level": "info",
+    "title": "Low OCR confidence",
+    "detail": "MP09BM9388 at CAM_034 · 87.7%",
+    "timestamp": 1787996048676.522,
+    "plate": "MP09BM9388",
+    "cameraId": "CAM_034"
+  },
+  {
+    "id": "AL_9",
+    "level": "info",
+    "title": "Low OCR confidence",
+    "detail": "MP09BM9388 at CAM_023 · 87.7%",
+    "timestamp": 1787996399170.2112,
+    "plate": "MP09BM9388",
+    "cameraId": "CAM_023"
+  },
+  {
+    "id": "AL_2",
+    "level": "info",
+    "title": "Low OCR confidence",
+    "detail": "MP07MM3060 at CAM_049 · 87.1%",
+    "timestamp": 1788000341900.7378,
+    "plate": "MP07MM3060",
+    "cameraId": "CAM_049"
+  },
+  {
+    "id": "AL_5",
+    "level": "info",
+    "title": "Low OCR confidence",
+    "detail": "MP04JM2161 at CAM_081 · 87.6%",
+    "timestamp": 1788000607519.2742,
+    "plate": "MP04JM2161",
+    "cameraId": "CAM_081"
+  },
+  {
+    "id": "AL_6",
+    "level": "info",
+    "title": "Low OCR confidence",
+    "detail": "MP04JM2161 at CAM_076 · 87.1%",
+    "timestamp": 1788000747963.547,
+    "plate": "MP04JM2161",
+    "cameraId": "CAM_076"
+  },
+  {
+    "id": "AL_3",
+    "level": "info",
+    "title": "Low OCR confidence",
+    "detail": "MP04PA5799 at CAM_023 · 86.2%",
+    "timestamp": 1788005091773.1921,
+    "plate": "MP04PA5799",
+    "cameraId": "CAM_023"
+  },
+  {
+    "id": "AL_13",
+    "level": "warn",
+    "title": "Corridor saturation",
+    "detail": "City Centre evening peak",
+    "timestamp": 1788008363565.7188,
+    "cameraId": "CAM_023"
+  },
+  {
+    "id": "AL_4",
+    "level": "info",
+    "title": "Low OCR confidence",
+    "detail": "MP04LB1590 at CAM_023 · 88.2%",
+    "timestamp": 1788012951620.0303,
+    "plate": "MP04LB1590",
+    "cameraId": "CAM_023"
+  },
+  {
+    "id": "AL_15",
+    "level": "info",
+    "title": "Low OCR confidence",
+    "detail": "MPO7AC2285 at CAM_057 · 86.4%",
+    "timestamp": 1788063568007.0608,
+    "plate": "MP07AC2285",
+    "cameraId": "CAM_057"
+  },
+  {
+    "id": "AL_16",
+    "level": "info",
+    "title": "Low OCR confidence",
+    "detail": "MP07HA6392 at CAM_049 · 86.3%",
+    "timestamp": 1788067491312.5703,
+    "plate": "MP07HA6392",
+    "cameraId": "CAM_049"
+  },
+  {
+    "id": "AL_19",
+    "level": "info",
+    "title": "Low OCR confidence",
+    "detail": "MP04BB5857 at CAM_028 · 87.1%",
+    "timestamp": 1788076781671.703,
+    "plate": "MP04BB5857",
+    "cameraId": "CAM_028"
+  },
+  {
+    "id": "AL_14",
+    "level": "info",
+    "title": "Low OCR confidence",
+    "detail": "MP07AT2946 at CAM_057 · 86.3%",
+    "timestamp": 1788077618251.0784,
+    "plate": "MP07AT2946",
+    "cameraId": "CAM_057"
+  },
+  {
+    "id": "AL_18",
+    "level": "info",
+    "title": "Low OCR confidence",
+    "detail": "MP07JF5662 at CAM_023 · 88.2%",
+    "timestamp": 1788091224339.9185,
+    "plate": "MP07JF5662",
+    "cameraId": "CAM_023"
+  },
+  {
+    "id": "AL_17",
+    "level": "info",
+    "title": "Low OCR confidence",
+    "detail": "MP07JA5573 at CAM_057 · 86.3%",
+    "timestamp": 1788093088376.3708,
+    "plate": "MP07JA5573",
+    "cameraId": "CAM_057"
+  },
+  {
+    "id": "AL_20",
+    "level": "info",
+    "title": "Low OCR confidence",
+    "detail": "MP07VF2925 at CAM_015 · 86.7%",
+    "timestamp": 1788099847376.525,
+    "plate": "MP07VF2925",
+    "cameraId": "CAM_015"
+  },
+  {
+    "id": "AL_58",
+    "level": "info",
+    "title": "Low OCR confidence",
+    "detail": "MP07AR7384 at CAM_015 · 86.1%",
+    "timestamp": 1788137700000,
+    "plate": "MP07AR7384",
+    "cameraId": "CAM_015"
+  },
+  {
+    "id": "AL_59",
+    "level": "info",
+    "title": "Low OCR confidence",
+    "detail": "MP07AR7384 at CAM_062 · 87.9%",
+    "timestamp": 1788138056697.3665,
+    "plate": "MP07AR7384",
+    "cameraId": "CAM_062"
+  },
+  {
+    "id": "AL_60",
+    "level": "info",
+    "title": "Low OCR confidence",
+    "detail": "MP09LP5824 at CAM_049 · 86.1%",
+    "timestamp": 1788138899718.9739,
+    "plate": "MP09LP5824",
+    "cameraId": "CAM_049"
+  },
+  {
+    "id": "AL_53",
+    "level": "info",
+    "title": "Low OCR confidence",
+    "detail": "MP04MJ6108 at CAM_042 · 86.1%",
+    "timestamp": 1788139203701.757,
+    "plate": "MP04MJ6108",
+    "cameraId": "CAM_042"
+  },
+  {
+    "id": "AL_55",
+    "level": "info",
+    "title": "Low OCR confidence",
+    "detail": "MP07KF5963 at CAM_057 · 87.0%",
+    "timestamp": 1788140793799.8325,
+    "plate": "MP07KF5963",
+    "cameraId": "CAM_057"
+  },
+  {
+    "id": "AL_24",
+    "level": "info",
+    "title": "Low OCR confidence",
+    "detail": "MP07KP6265 at CAM_028 · 88.8%",
+    "timestamp": 1788141563681.395,
+    "plate": "MP07KP6265",
+    "cameraId": "CAM_028"
+  },
+  {
+    "id": "AL_25",
+    "level": "info",
+    "title": "Low OCR confidence",
+    "detail": "MP07KP6265 at CAM_057 · 86.3%",
+    "timestamp": 1788141693600.4487,
+    "plate": "MP07KP6265",
+    "cameraId": "CAM_057"
+  },
+  {
+    "id": "AL_30",
+    "level": "info",
+    "title": "Low OCR confidence",
+    "detail": "MP07VT8505 at CAM_028 · 86.2%",
+    "timestamp": 1788141817239.5469,
+    "plate": "MP07VT8505",
+    "cameraId": "CAM_028"
+  },
+  {
+    "id": "AL_54",
+    "level": "warn",
+    "title": "Implausible transit",
+    "detail": "MP09MC4214 CAM_076 → CAM_062 faster than road estimate",
+    "timestamp": 1788142163403.454,
+    "plate": "MP09MC4214"
+  },
+  {
+    "id": "AL_27",
+    "level": "warn",
+    "title": "Implausible transit",
+    "detail": "MP07AT2946 CAM_103 → CAM_011 faster than road estimate",
+    "timestamp": 1788142216644.0745,
+    "plate": "MP07AT2946"
+  },
+  {
+    "id": "AL_52",
+    "level": "info",
+    "title": "Low OCR confidence",
+    "detail": "MP07VP5201 at CAM_042 · 86.5%",
+    "timestamp": 1788142271482.4995,
+    "plate": "MP07VP5201",
+    "cameraId": "CAM_042"
+  },
+  {
+    "id": "AL_21",
+    "level": "critical",
+    "title": "Watchlist plate",
+    "detail": "MP04ST3344 observed at Kampoo",
+    "timestamp": 1788142317726.0005,
+    "plate": "MP04ST3344",
+    "cameraId": "CAM_015"
+  },
+  {
+    "id": "AL_39",
+    "level": "info",
+    "title": "Low OCR confidence",
+    "detail": "MP04JC7469 at CAM_011 · 88.6%",
+    "timestamp": 1788142983046.5498,
+    "plate": "MP04JC7469",
+    "cameraId": "CAM_011"
+  },
+  {
+    "id": "AL_40",
+    "level": "info",
+    "title": "Low OCR confidence",
+    "detail": "MP04JC7469 at CAM_057 · 87.9%",
+    "timestamp": 1788143372370.8267,
+    "plate": "MP04JC7469",
+    "cameraId": "CAM_057"
+  },
+  {
+    "id": "AL_57",
+    "level": "info",
+    "title": "Low OCR confidence",
+    "detail": "MP07AF8473 at CAM_057 · 88.3%",
+    "timestamp": 1788144047287.558,
+    "plate": "MP07AF8473",
+    "cameraId": "CAM_057"
+  },
+  {
+    "id": "AL_31",
+    "level": "info",
+    "title": "Low OCR confidence",
+    "detail": "MP07JB5622 at CAM_057 · 88.5%",
+    "timestamp": 1788144940799.3423,
+    "plate": "MP07JB5622",
+    "cameraId": "CAM_057"
+  },
+  {
+    "id": "AL_37",
+    "level": "info",
+    "title": "Low OCR confidence",
+    "detail": "MP07BR7601 at CAM_023 · 86.5%",
+    "timestamp": 1788145392744.8735,
+    "plate": "MP07BR7601",
+    "cameraId": "CAM_023"
+  },
+  {
+    "id": "AL_32",
+    "level": "info",
+    "title": "Low OCR confidence",
+    "detail": "MP04BB7826 at CAM_034 · 88.4%",
+    "timestamp": 1788145538745.0247,
+    "plate": "MP04BB7826",
+    "cameraId": "CAM_034"
+  },
+  {
+    "id": "AL_22",
+    "level": "critical",
+    "title": "Watchlist plate",
+    "detail": "MP07TR8821 observed at Gwalior Junction",
+    "timestamp": 1788147174609.953,
+    "plate": "MP07TR8821",
+    "cameraId": "CAM_023"
+  },
+  {
+    "id": "AL_23",
+    "level": "info",
+    "title": "Low OCR confidence",
+    "detail": "MP07TR8821 at CAM_015 · 87.7%",
+    "timestamp": 1788147556065.9827,
+    "plate": "MP07TR8821",
+    "cameraId": "CAM_015"
+  },
+  {
+    "id": "AL_34",
+    "level": "warn",
+    "title": "Implausible transit",
+    "detail": "MP07JA5573 CAM_049 → CAM_028 faster than road estimate",
+    "timestamp": 1788149302712.701,
+    "plate": "MP07JA5573"
+  },
+  {
+    "id": "AL_46",
+    "level": "info",
+    "title": "Low OCR confidence",
+    "detail": "MP07JF4965 at CAM_042 · 87.8%",
+    "timestamp": 1788157205710.023,
+    "plate": "MP07JF4965",
+    "cameraId": "CAM_042"
+  },
+  {
+    "id": "AL_56",
+    "level": "info",
+    "title": "Low OCR confidence",
+    "detail": "MP07KF5963 at CAM_057 · 87.0%",
+    "timestamp": 1788162149547.6545,
+    "plate": "MP07KF5963",
+    "cameraId": "CAM_057"
+  },
+  {
+    "id": "AL_47",
+    "level": "info",
+    "title": "Low OCR confidence",
+    "detail": "MP07TP4924 at CAM_057 · 87.8%",
+    "timestamp": 1788163383080.2808,
+    "plate": "MP07TP4924",
+    "cameraId": "CAM_057"
+  },
+  {
+    "id": "AL_48",
+    "level": "info",
+    "title": "Low OCR confidence",
+    "detail": "MP07TP4924 at CAM_057 · 86.7%",
+    "timestamp": 1788165024019.6423,
+    "plate": "MP07TP4924",
+    "cameraId": "CAM_057"
+  },
+  {
+    "id": "AL_45",
+    "level": "info",
+    "title": "Low OCR confidence",
+    "detail": "MP09BM9388 at CAM_034 · 88.1%",
+    "timestamp": 1788168302300.138,
+    "plate": "MP09BM9388",
+    "cameraId": "CAM_034"
+  },
+  {
+    "id": "AL_49",
+    "level": "info",
+    "title": "Low OCR confidence",
+    "detail": "MP07BB1157 at CAM_057 · 86.8%",
+    "timestamp": 1788169389695.8162,
+    "plate": "MP07BB1157",
+    "cameraId": "CAM_057"
+  },
+  {
+    "id": "AL_50",
+    "level": "info",
+    "title": "Low OCR confidence",
+    "detail": "MP07BB1157 at CAM_062 · 86.7%",
+    "timestamp": 1788169596128.5354,
+    "plate": "MP07BB1157",
+    "cameraId": "CAM_062"
+  },
+  {
+    "id": "AL_51",
+    "level": "info",
+    "title": "Low OCR confidence",
+    "detail": "MP07BB1157 at CAM_081 · 86.7%",
+    "timestamp": 1788172411187.259,
+    "plate": "MP07BB1157",
+    "cameraId": "CAM_081"
+  },
+  {
+    "id": "AL_33",
+    "level": "info",
+    "title": "Low OCR confidence",
+    "detail": "MP09CV4656 at CAM_042 · 86.5%",
+    "timestamp": 1788178351216.7573,
+    "plate": "MP09CV4656",
+    "cameraId": "CAM_042"
+  },
+  {
+    "id": "AL_43",
+    "level": "info",
+    "title": "Low OCR confidence",
+    "detail": "MP04PA5799 at CAM_034 · 88.5%",
+    "timestamp": 1788178433587.1057,
+    "plate": "MP04PA5799",
+    "cameraId": "CAM_034"
+  },
+  {
+    "id": "AL_29",
+    "level": "info",
+    "title": "Low OCR confidence",
+    "detail": "MP09BK2315 at CAM_062 · 87.7%",
+    "timestamp": 1788179216533.184,
+    "plate": "MP09BK2315",
+    "cameraId": "CAM_062"
+  },
+  {
+    "id": "AL_61",
+    "level": "warn",
+    "title": "Corridor saturation",
+    "detail": "Gwalior Junction evening peak",
+    "timestamp": 1788179413042.2,
+    "cameraId": "CAM_081"
+  },
+  {
+    "id": "AL_26",
+    "level": "info",
+    "title": "Low OCR confidence",
+    "detail": "MP04HJ8695 at CAM_062 · 88.0%",
+    "timestamp": 1788179643305.7778,
+    "plate": "MP04HJ8695",
+    "cameraId": "CAM_062"
+  },
+  {
+    "id": "AL_28",
+    "level": "info",
+    "title": "Low OCR confidence",
+    "detail": "MP07TR8427 at CAM_011 · 87.5%",
+    "timestamp": 1788180749565.7773,
+    "plate": "MP07TR8427",
+    "cameraId": "CAM_011"
+  },
+  {
+    "id": "AL_35",
+    "level": "warn",
+    "title": "Implausible transit",
+    "detail": "MP09RP8559 CAM_011 → CAM_023 faster than road estimate",
+    "timestamp": 1788181017623.0483,
+    "plate": "MP09RP8559"
+  },
+  {
+    "id": "AL_36",
+    "level": "info",
+    "title": "Low OCR confidence",
+    "detail": "MP09RP8559 at CAM_023 · 88.9%",
+    "timestamp": 1788181017623.0483,
+    "plate": "MP09RP8559",
+    "cameraId": "CAM_023"
+  },
+  {
+    "id": "AL_38",
+    "level": "info",
+    "title": "Low OCR confidence",
+    "detail": "MP07JJ4738 at CAM_081 · 86.5%",
+    "timestamp": 1788182501578.569,
+    "plate": "MP07JJ4738",
+    "cameraId": "CAM_081"
+  },
+  {
+    "id": "AL_44",
+    "level": "info",
+    "title": "Low OCR confidence",
+    "detail": "MP07VF2925 at CAM_103 · 87.4%",
+    "timestamp": 1788183916550.0994,
+    "plate": "MP07VF2925",
+    "cameraId": "CAM_103"
+  },
+  {
+    "id": "AL_42",
+    "level": "info",
+    "title": "Low OCR confidence",
+    "detail": "MP07RA9083 at CAM_028 · 87.8%",
+    "timestamp": 1788184258593.5322,
+    "plate": "MP07RA9083",
+    "cameraId": "CAM_028"
+  },
+  {
+    "id": "AL_41",
+    "level": "info",
+    "title": "Low OCR confidence",
+    "detail": "MP09KR1689 at CAM_062 · 88.0%",
+    "timestamp": 1788184755205.1963,
+    "plate": "MP09KR1689",
+    "cameraId": "CAM_062"
+  },
+  {
+    "id": "AL_104",
+    "level": "info",
+    "title": "Low OCR confidence",
+    "detail": "MP07AJ7394 at CAM_023 · 88.0%",
+    "timestamp": 1788225590789.502,
+    "plate": "MP07AJ7394",
+    "cameraId": "CAM_023"
+  },
+  {
+    "id": "AL_102",
+    "level": "info",
+    "title": "Low OCR confidence",
+    "detail": "MP09VJ6672 at CAM_011 · 88.3%",
+    "timestamp": 1788225591138.5132,
+    "plate": "MP09VJ6672",
+    "cameraId": "CAM_011"
+  },
+  {
+    "id": "AL_98",
+    "level": "info",
+    "title": "Low OCR confidence",
+    "detail": "MP04MK4700 at CAM_076 · 86.9%",
+    "timestamp": 1788225784962.9084,
+    "plate": "MP04MK4700",
+    "cameraId": "CAM_076"
+  },
+  {
+    "id": "AL_105",
+    "level": "info",
+    "title": "Low OCR confidence",
+    "detail": "MP07AF8473 at CAM_103 · 86.9%",
+    "timestamp": 1788226061951.6272,
+    "plate": "MP07AF8473",
+    "cameraId": "CAM_103"
+  },
+  {
+    "id": "AL_108",
+    "level": "info",
+    "title": "Low OCR confidence",
+    "detail": "MP07AR7384 at CAM_015 · 86.6%",
+    "timestamp": 1788226324661.5195,
+    "plate": "MP07AR7384",
+    "cameraId": "CAM_015"
+  },
+  {
+    "id": "AL_88",
+    "level": "info",
+    "title": "Low OCR confidence",
+    "detail": "MP07MM3060 at CAM_042 · 86.2%",
+    "timestamp": 1788226326073.1973,
+    "plate": "MP07MM3060",
+    "cameraId": "CAM_042"
+  },
+  {
+    "id": "AL_106",
+    "level": "info",
+    "title": "Low OCR confidence",
+    "detail": "MP07AF8473 at CAM_028 · 87.8%",
+    "timestamp": 1788226653736.5835,
+    "plate": "MP07AF8473",
+    "cameraId": "CAM_028"
+  },
+  {
+    "id": "AL_79",
+    "level": "info",
+    "title": "Low OCR confidence",
+    "detail": "MP07LH8506 at CAM_081 · 86.4%",
+    "timestamp": 1788227700685.915,
+    "plate": "MP07LH8506",
+    "cameraId": "CAM_081"
+  },
+  {
+    "id": "AL_70",
+    "level": "info",
+    "title": "Low OCR confidence",
+    "detail": "MP07TR8427 at CAM_028 · 87.8%",
+    "timestamp": 1788228476789.0947,
+    "plate": "MP07TR8427",
+    "cameraId": "CAM_028"
+  },
+  {
+    "id": "AL_103",
+    "level": "warn",
+    "title": "Implausible transit",
+    "detail": "MP07FM4740 CAM_062 → CAM_011 faster than road estimate",
+    "timestamp": 1788228498449.5405,
+    "plate": "MP07FM4740"
+  },
+  {
+    "id": "AL_99",
+    "level": "warn",
+    "title": "Implausible transit",
+    "detail": "MP07VP3320 CAM_028 → CAM_049 faster than road estimate",
+    "timestamp": 1788228778484.2976,
+    "plate": "MP07VP3320"
+  },
+  {
+    "id": "AL_72",
+    "level": "info",
+    "title": "Low OCR confidence",
+    "detail": "MP07KB1756 at CAM_034 · 86.5%",
+    "timestamp": 1788229158935.9495,
+    "plate": "MP07KB1756",
+    "cameraId": "CAM_034"
+  },
+  {
+    "id": "AL_62",
+    "level": "critical",
+    "title": "Watchlist plate",
+    "detail": "MP04ST3344 observed at Kampoo",
+    "timestamp": 1788229304929.6694,
+    "plate": "MP04ST3344",
+    "cameraId": "CAM_015"
+  },
+  {
+    "id": "AL_85",
+    "level": "info",
+    "title": "Low OCR confidence",
+    "detail": "MP07JJ4738 at CAM_081 · 88.5%",
+    "timestamp": 1788229356995.7952,
+    "plate": "MP07JJ4738",
+    "cameraId": "CAM_081"
+  },
+  {
+    "id": "AL_93",
+    "level": "info",
+    "title": "Low OCR confidence",
+    "detail": "MP07BB9267 at CAM_028 · 87.5%",
+    "timestamp": 1788230290155.5916,
+    "plate": "MP07BB9267",
+    "cameraId": "CAM_028"
+  },
+  {
+    "id": "AL_76",
+    "level": "info",
+    "title": "Low OCR confidence",
+    "detail": "MP07JF5662 at CAM_057 · 87.2%",
+    "timestamp": 1788230838735.0444,
+    "plate": "MP07JF5662",
+    "cameraId": "CAM_057"
+  },
+  {
+    "id": "AL_67",
+    "level": "info",
+    "title": "Low OCR confidence",
+    "detail": "MP07LB8281 at CAM_028 · 88.4%",
+    "timestamp": 1788231607086.6792,
+    "plate": "MP07LB8281",
+    "cameraId": "CAM_028"
+  },
+  {
+    "id": "AL_90",
+    "level": "info",
+    "title": "Low OCR confidence",
+    "detail": "MP04PV3531 at CAM_103 · 88.7%",
+    "timestamp": 1788232243477.8855,
+    "plate": "MP04PV3531",
+    "cameraId": "CAM_103"
+  },
+  {
+    "id": "AL_64",
+    "level": "critical",
+    "title": "Watchlist plate",
+    "detail": "MP07TR8821 observed at Gwalior Junction",
+    "timestamp": 1788232546053.6584,
+    "plate": "MP07TR8821",
+    "cameraId": "CAM_023"
+  },
+  {
+    "id": "AL_65",
+    "level": "info",
+    "title": "Low OCR confidence",
+    "detail": "MP07TR8821 at CAM_015 · 88.4%",
+    "timestamp": 1788232885912.2834,
+    "plate": "MP07TR8821",
+    "cameraId": "CAM_015"
+  },
+  {
+    "id": "AL_78",
+    "level": "warn",
+    "title": "Implausible transit",
+    "detail": "MP04LJ9841 CAM_062 → CAM_057 faster than road estimate",
+    "timestamp": 1788233060377.3848,
+    "plate": "MP04LJ9841"
+  },
+  {
+    "id": "AL_75",
+    "level": "info",
+    "title": "Low OCR confidence",
+    "detail": "MP07JA5573 at CAM_057 · 88.9%",
+    "timestamp": 1788234982579.3052,
+    "plate": "MP07JA5573",
+    "cameraId": "CAM_057"
+  },
+  {
+    "id": "AL_82",
+    "level": "info",
+    "title": "Low OCR confidence",
+    "detail": "MP07KM2412 at CAM_049 · 87.7%",
+    "timestamp": 1788235493704.4158,
+    "plate": "MP07KM2412",
+    "cameraId": "CAM_049"
+  },
+  {
+    "id": "AL_69",
+    "level": "info",
+    "title": "Low OCR confidence",
+    "detail": "MP07AT2946 at CAM_103 · 87.6%",
+    "timestamp": 1788235679939.5383,
+    "plate": "MP07AT2946",
+    "cameraId": "CAM_103"
+  },
+  {
+    "id": "AL_94",
+    "level": "info",
+    "title": "Low OCR confidence",
+    "detail": "MP07KF1686 at CAM_015 · 88.9%",
+    "timestamp": 1788246652560.9343,
+    "plate": "MP07KF1686",
+    "cameraId": "CAM_015"
+  },
+  {
+    "id": "AL_109",
+    "level": "info",
+    "title": "Low OCR confidence",
+    "detail": "MP09AL2964 at CAM_011 · 88.0%",
+    "timestamp": 1788254796566.1707,
+    "plate": "MP09AL2964",
+    "cameraId": "CAM_011"
+  },
+  {
+    "id": "AL_110",
+    "level": "warn",
+    "title": "Implausible transit",
+    "detail": "MP09AL2964 CAM_011 → CAM_015 faster than road estimate",
+    "timestamp": 1788254969135.3777,
+    "plate": "MP09AL2964"
+  },
+  {
+    "id": "AL_101",
+    "level": "info",
+    "title": "Low OCR confidence",
+    "detail": "MP07BB1157 at CAM_062 · 86.1%",
+    "timestamp": 1788255055778.668,
+    "plate": "MP07BB1157",
+    "cameraId": "CAM_062"
+  },
+  {
+    "id": "AL_107",
+    "level": "info",
+    "title": "Low OCR confidence",
+    "detail": "MP07AF8473 at CAM_011 · 86.5%",
+    "timestamp": 1788255428291.7383,
+    "plate": "MP07AF8473",
+    "cameraId": "CAM_011"
+  },
+  {
+    "id": "AL_96",
+    "level": "info",
+    "title": "Low OCR confidence",
+    "detail": "MP07JF4965 at CAM_049 · 87.6%",
+    "timestamp": 1788256619160.8906,
+    "plate": "MP07JF4965",
+    "cameraId": "CAM_049"
+  },
+  {
+    "id": "AL_100",
+    "level": "info",
+    "title": "Low OCR confidence",
+    "detail": "MP07VP3320 at CAM_042 · 88.2%",
+    "timestamp": 1788259516725.8792,
+    "plate": "MP07VP3320",
+    "cameraId": "CAM_042"
+  },
+  {
+    "id": "AL_97",
+    "level": "info",
+    "title": "Low OCR confidence",
+    "detail": "MP07TP4924 at CAM_057 · 88.8%",
+    "timestamp": 1788259680505.4424,
+    "plate": "MP07TP4924",
+    "cameraId": "CAM_057"
+  },
+  {
+    "id": "AL_87",
+    "level": "info",
+    "title": "Low OCR confidence",
+    "detail": "MP04BC4479 at CAM_034 · 88.6%",
+    "timestamp": 1788261077369.1902,
+    "plate": "MP04BC4479",
+    "cameraId": "CAM_034"
+  },
+  {
+    "id": "AL_68",
+    "level": "info",
+    "title": "Low OCR confidence",
+    "detail": "MP07FL7982 at CAM_062 · 88.0%",
+    "timestamp": 1788262677260.3616,
+    "plate": "MP07FL7982",
+    "cameraId": "CAM_062"
+  },
+  {
+    "id": "AL_63",
+    "level": "info",
+    "title": "Low OCR confidence",
+    "detail": "MP04ST3344 at CAM_062 · 86.2%",
+    "timestamp": 1788263479613.7727,
+    "plate": "MP04ST3344",
+    "cameraId": "CAM_062"
+  },
+  {
+    "id": "AL_81",
+    "level": "warn",
+    "title": "Implausible transit",
+    "detail": "MP09CM7157 CAM_062 → CAM_011 faster than road estimate",
+    "timestamp": 1788263556342.8513,
+    "plate": "MP09CM7157"
+  },
+  {
+    "id": "AL_86",
+    "level": "info",
+    "title": "Low OCR confidence",
+    "detail": "MP07JJ4738 at CAM_028 · 86.7%",
+    "timestamp": 1788263874957.869,
+    "plate": "MP07JJ4738",
+    "cameraId": "CAM_028"
+  },
+  {
+    "id": "AL_77",
+    "level": "info",
+    "title": "Low OCR confidence",
+    "detail": "MP07JF5662 at CAM_057 · 88.4%",
+    "timestamp": 1788264004735.374,
+    "plate": "MP07JF5662",
+    "cameraId": "CAM_057"
+  },
+  {
+    "id": "AL_74",
+    "level": "warn",
+    "title": "Implausible transit",
+    "detail": "MP04HP1221 CAM_011 → CAM_015 faster than road estimate",
+    "timestamp": 1788265668170.2793,
+    "plate": "MP04HP1221"
+  },
+  {
+    "id": "AL_73",
+    "level": "info",
+    "title": "Low OCR confidence",
+    "detail": "MP07KB1756 at CAM_034 · 87.6%",
+    "timestamp": 1788265951586.5452,
+    "plate": "MP07KB1756",
+    "cameraId": "CAM_034"
+  },
+  {
+    "id": "AL_111",
+    "level": "warn",
+    "title": "Corridor saturation",
+    "detail": "City Centre evening peak",
+    "timestamp": 1788267022578.413,
+    "cameraId": "CAM_057"
+  },
+  {
+    "id": "AL_95",
+    "level": "info",
+    "title": "Low OCR confidence",
+    "detail": "MP07JC9784 at CAM_049 · 86.2%",
+    "timestamp": 1788267481835.5034,
+    "plate": "MP07JC9784",
+    "cameraId": "CAM_049"
+  },
+  {
+    "id": "AL_83",
+    "level": "info",
+    "title": "Low OCR confidence",
+    "detail": "MP07KM2412 at CAM_049 · 88.4%",
+    "timestamp": 1788267491470.123,
+    "plate": "MP07KM2412",
+    "cameraId": "CAM_049"
+  },
+  {
+    "id": "AL_66",
+    "level": "info",
+    "title": "Low OCR confidence",
+    "detail": "MP07KP6265 at CAM_028 · 87.0%",
+    "timestamp": 1788267491961.5752,
+    "plate": "MP07KP6265",
+    "cameraId": "CAM_028"
+  },
+  {
+    "id": "AL_71",
+    "level": "info",
+    "title": "Low OCR confidence",
+    "detail": "MP09BK2315 at CAM_062 · 86.3%",
+    "timestamp": 1788267883504.3564,
+    "plate": "MP09BK2315",
+    "cameraId": "CAM_062"
+  },
+  {
+    "id": "AL_84",
+    "level": "warn",
+    "title": "Implausible transit",
+    "detail": "MP07BT4013 CAM_057 → CAM_062 faster than road estimate",
+    "timestamp": 1788268561599.1804,
+    "plate": "MP07BT4013"
+  },
+  {
+    "id": "AL_92",
+    "level": "info",
+    "title": "Low OCR confidence",
+    "detail": "MP07RA9083 at CAM_028 · 87.3%",
+    "timestamp": 1788269836800.7407,
+    "plate": "MP07RA9083",
+    "cameraId": "CAM_028"
+  },
+  {
+    "id": "AL_80",
+    "level": "info",
+    "title": "Low OCR confidence",
+    "detail": "MP04JV6546 at CAM_028 · 86.4%",
+    "timestamp": 1788270644511.9001,
+    "plate": "MP04JV6546",
+    "cameraId": "CAM_028"
+  },
+  {
+    "id": "AL_89",
+    "level": "info",
+    "title": "Low OCR confidence",
+    "detail": "MP07MM3060 at CAM_034 · 87.7%",
+    "timestamp": 1788271250934.6213,
+    "plate": "MP07MM3060",
+    "cameraId": "CAM_034"
+  },
+  {
+    "id": "AL_91",
+    "level": "info",
+    "title": "Low OCR confidence",
+    "detail": "MP07VP3157 at CAM_011 · 88.9%",
+    "timestamp": 1788273928283.9263,
+    "plate": "MP07VP3157",
+    "cameraId": "CAM_011"
+  },
+  {
+    "id": "AL_145",
+    "level": "info",
+    "title": "Low OCR confidence",
+    "detail": "MP07PP6085 at CAM_034 · 86.0%",
+    "timestamp": 1788311113511.3438,
+    "plate": "MP07PP6085",
+    "cameraId": "CAM_034"
+  },
+  {
+    "id": "AL_148",
+    "level": "info",
+    "title": "Low OCR confidence",
+    "detail": "MP07AJ7394 at CAM_057 · 86.9%",
+    "timestamp": 1788311293248.7683,
+    "plate": "MP07AJ7394",
+    "cameraId": "CAM_057"
+  },
+  {
+    "id": "AL_154",
+    "level": "info",
+    "title": "Low OCR confidence",
+    "detail": "MP09AL2964 at CAM_023 · 86.6%",
+    "timestamp": 1788311711447.2307,
+    "plate": "MP09AL2964",
+    "cameraId": "CAM_023"
+  },
+  {
+    "id": "AL_139",
+    "level": "info",
+    "title": "Low OCR confidence",
+    "detail": "MP07BF7277 at CAM_062 · 87.6%",
+    "timestamp": 1788313662572.5247,
+    "plate": "MP07BF7277",
+    "cameraId": "CAM_062"
+  },
+  {
+    "id": "AL_119",
+    "level": "info",
+    "title": "Low OCR confidence",
+    "detail": "MP07JV2640 at CAM_028 · 86.7%",
+    "timestamp": 1788314929944.3848,
+    "plate": "MP07JV2640",
+    "cameraId": "CAM_028"
+  },
+  {
+    "id": "AL_118",
+    "level": "info",
+    "title": "Low OCR confidence",
+    "detail": "MP07AC2285 at CAM_028 · 88.4%",
+    "timestamp": 1788315543882.1482,
+    "plate": "MP07AC2285",
+    "cameraId": "CAM_028"
+  },
+  {
+    "id": "AL_150",
+    "level": "info",
+    "title": "Low OCR confidence",
+    "detail": "MP07AF8473 at CAM_103 · 87.0%",
+    "timestamp": 1788315570686.8398,
+    "plate": "MP07AF8473",
+    "cameraId": "CAM_103"
+  },
+  {
+    "id": "AL_149",
+    "level": "info",
+    "title": "Low OCR confidence",
+    "detail": "MP07KF5963 at CAM_023 · 86.7%",
+    "timestamp": 1788316169406.2617,
+    "plate": "MP07KF5963",
+    "cameraId": "CAM_023"
+  },
+  {
+    "id": "AL_137",
+    "level": "info",
+    "title": "Low OCR confidence",
+    "detail": "MP04JJ9576 at CAM_049 · 87.6%",
+    "timestamp": 1788316725253.2524,
+    "plate": "MP04JJ9576",
+    "cameraId": "CAM_049"
+  },
+  {
+    "id": "AL_140",
+    "level": "info",
+    "title": "Low OCR confidence",
+    "detail": "MP07VP3320 at CAM_015 · 88.5%",
+    "timestamp": 1788316919980.59,
+    "plate": "MP07VP3320",
+    "cameraId": "CAM_015"
+  },
+  {
+    "id": "AL_141",
+    "level": "info",
+    "title": "Low OCR confidence",
+    "detail": "MPO7VP3320 at CAM_042 · 86.5%",
+    "timestamp": 1788317173894.62,
+    "plate": "MP07VP3320",
+    "cameraId": "CAM_042"
+  },
+  {
+    "id": "AL_124",
+    "level": "info",
+    "title": "Low OCR confidence",
+    "detail": "MP09CV4656 at CAM_042 · 86.4%",
+    "timestamp": 1788317512311.2256,
+    "plate": "MP09CV4656",
+    "cameraId": "CAM_042"
+  },
+  {
+    "id": "AL_132",
+    "level": "info",
+    "title": "Low OCR confidence",
+    "detail": "MP04AA3293 at CAM_062 · 87.8%",
+    "timestamp": 1788317594133.0186,
+    "plate": "MP04AA3293",
+    "cameraId": "CAM_062"
+  },
+  {
+    "id": "AL_131",
+    "level": "info",
+    "title": "Low OCR confidence",
+    "detail": "MP04BB5857 at CAM_028 · 87.4%",
+    "timestamp": 1788320040762.8455,
+    "plate": "MP04BB5857",
+    "cameraId": "CAM_028"
+  },
+  {
+    "id": "AL_112",
+    "level": "critical",
+    "title": "Watchlist plate",
+    "detail": "MP04ST3344 observed at Kampoo",
+    "timestamp": 1788321115007.4775,
+    "plate": "MP04ST3344",
+    "cameraId": "CAM_015"
+  },
+  {
+    "id": "AL_113",
+    "level": "critical",
+    "title": "Watchlist plate",
+    "detail": "MP07TR8821 observed at Gwalior Junction",
+    "timestamp": 1788321483886.8848,
+    "plate": "MP07TR8821",
+    "cameraId": "CAM_023"
+  },
+  {
+    "id": "AL_127",
+    "level": "info",
+    "title": "Low OCR confidence",
+    "detail": "MP07LH6573 at CAM_076 · 86.8%",
+    "timestamp": 1788321583123.2742,
+    "plate": "MP07LH6573",
+    "cameraId": "CAM_076"
+  },
+  {
+    "id": "AL_123",
+    "level": "info",
+    "title": "Low OCR confidence",
+    "detail": "MP07RC1402 at CAM_015 · 87.1%",
+    "timestamp": 1788321677420.859,
+    "plate": "MP07RC1402",
+    "cameraId": "CAM_015"
+  },
+  {
+    "id": "AL_128",
+    "level": "warn",
+    "title": "Implausible transit",
+    "detail": "MP07JJ4738 CAM_081 → CAM_057 faster than road estimate",
+    "timestamp": 1788321998336.4954,
+    "plate": "MP07JJ4738"
+  },
+  {
+    "id": "AL_129",
+    "level": "info",
+    "title": "Low OCR confidence",
+    "detail": "MP07JJ4738 at CAM_057 · 86.3%",
+    "timestamp": 1788321998336.4954,
+    "plate": "MP07JJ4738",
+    "cameraId": "CAM_057"
+  },
+  {
+    "id": "AL_134",
+    "level": "info",
+    "title": "Low OCR confidence",
+    "detail": "MP07MT5601 at CAM_081 · 88.0%",
+    "timestamp": 1788329545315.8267,
+    "plate": "MP07MT5601",
+    "cameraId": "CAM_081"
+  },
+  {
+    "id": "AL_136",
+    "level": "info",
+    "title": "Low OCR confidence",
+    "detail": "MP07KF1686 at CAM_103 · 87.0%",
+    "timestamp": 1788330415040.083,
+    "plate": "MP07KF1686",
+    "cameraId": "CAM_103"
+  },
+  {
+    "id": "AL_142",
+    "level": "info",
+    "title": "Low OCR confidence",
+    "detail": "MP07BB1157 at CAM_081 · 87.1%",
+    "timestamp": 1788336410684.4521,
+    "plate": "MP07BB1157",
+    "cameraId": "CAM_081"
+  },
+  {
+    "id": "AL_146",
+    "level": "warn",
+    "title": "Implausible transit",
+    "detail": "MP07PP6085 CAM_023 → CAM_042 faster than road estimate",
+    "timestamp": 1788337496010.4724,
+    "plate": "MP07PP6085"
+  },
+  {
+    "id": "AL_152",
+    "level": "info",
+    "title": "Low OCR confidence",
+    "detail": "MP07VA9014 at CAM_023 · 86.4%",
+    "timestamp": 1788337961091.6619,
+    "plate": "MP07VA9014",
+    "cameraId": "CAM_023"
+  },
+  {
+    "id": "AL_153",
+    "level": "info",
+    "title": "Low OCR confidence",
+    "detail": "MP07VA9014 at CAM_028 · 87.8%",
+    "timestamp": 1788339983379.8525,
+    "plate": "MP07VA9014",
+    "cameraId": "CAM_028"
+  },
+  {
+    "id": "AL_135",
+    "level": "info",
+    "title": "Low OCR confidence",
+    "detail": "MP07VF2925 at CAM_042 · 88.9%",
+    "timestamp": 1788342238375.628,
+    "plate": "MP07VF2925",
+    "cameraId": "CAM_042"
+  },
+  {
+    "id": "AL_143",
+    "level": "info",
+    "title": "Low OCR confidence",
+    "detail": "MP09VJ6672 at CAM_062 · 87.7%",
+    "timestamp": 1788342521300.7837,
+    "plate": "MP09VJ6672",
+    "cameraId": "CAM_062"
+  },
+  {
+    "id": "AL_144",
+    "level": "warn",
+    "title": "Implausible transit",
+    "detail": "MP09VJ6672 CAM_011 → CAM_062 faster than road estimate",
+    "timestamp": 1788345191583.8713,
+    "plate": "MP09VJ6672"
+  },
+  {
+    "id": "AL_151",
+    "level": "info",
+    "title": "Low OCR confidence",
+    "detail": "MP07AF8473 at CAM_081 · 88.5%",
+    "timestamp": 1788346487129.0654,
+    "plate": "MP07AF8473",
+    "cameraId": "CAM_081"
+  },
+  {
+    "id": "AL_155",
+    "level": "info",
+    "title": "Low OCR confidence",
+    "detail": "MP09AL2964 at CAM_057 · 87.0%",
+    "timestamp": 1788346760308.78,
+    "plate": "MP09AL2964",
+    "cameraId": "CAM_057"
+  },
+  {
+    "id": "AL_133",
+    "level": "info",
+    "title": "Low OCR confidence",
+    "detail": "MP04PA5799 at CAM_103 · 87.6%",
+    "timestamp": 1788346850595.9832,
+    "plate": "MP04PA5799",
+    "cameraId": "CAM_103"
+  },
+  {
+    "id": "AL_115",
+    "level": "info",
+    "title": "Low OCR confidence",
+    "detail": "MP07KP6265 at CAM_049 · 87.4%",
+    "timestamp": 1788349359347.6477,
+    "plate": "MP07KP6265",
+    "cameraId": "CAM_049"
+  },
+  {
+    "id": "AL_125",
+    "level": "info",
+    "title": "Low OCR confidence",
+    "detail": "MP07JF5662 at CAM_023 · 87.3%",
+    "timestamp": 1788349613834.551,
+    "plate": "MP07JF5662",
+    "cameraId": "CAM_023"
+  },
+  {
+    "id": "AL_147",
+    "level": "info",
+    "title": "Low OCR confidence",
+    "detail": "MP07VP5201 at CAM_034 · 88.7%",
+    "timestamp": 1788350301759.8708,
+    "plate": "MP07VP5201",
+    "cameraId": "CAM_034"
+  },
+  {
+    "id": "AL_117",
+    "level": "info",
+    "title": "Low OCR confidence",
+    "detail": "MP07KB1756 at CAM_034 · 88.7%",
+    "timestamp": 1788350341437.3762,
+    "plate": "MP07KB1756",
+    "cameraId": "CAM_034"
+  },
+  {
+    "id": "AL_126",
+    "level": "info",
+    "title": "Low OCR confidence",
+    "detail": "MP07LH8506 at CAM_023 · 87.3%",
+    "timestamp": 1788351253576.1997,
+    "plate": "MP07LH8506",
+    "cameraId": "CAM_023"
+  },
+  {
+    "id": "AL_122",
+    "level": "warn",
+    "title": "Implausible transit",
+    "detail": "MP04HP1221 CAM_011 → CAM_062 faster than road estimate",
+    "timestamp": 1788351609572.1882,
+    "plate": "MP04HP1221"
+  },
+  {
+    "id": "AL_130",
+    "level": "warn",
+    "title": "Implausible transit",
+    "detail": "MP07VR6138 CAM_028 → CAM_023 faster than road estimate",
+    "timestamp": 1788351618160.5447,
+    "plate": "MP07VR6138"
+  },
+  {
+    "id": "AL_156",
+    "level": "warn",
+    "title": "Corridor saturation",
+    "detail": "City Centre evening peak",
+    "timestamp": 1788352605984.697,
+    "cameraId": "CAM_081"
+  },
+  {
+    "id": "AL_138",
+    "level": "info",
+    "title": "Low OCR confidence",
+    "detail": "MP04JJ9576 at CAM_028 · 86.9%",
+    "timestamp": 1788353211728.7424,
+    "plate": "MP04JJ9576",
+    "cameraId": "CAM_028"
+  },
+  {
+    "id": "AL_120",
+    "level": "warn",
+    "title": "Implausible transit",
+    "detail": "MP07JV2640 CAM_023 → CAM_011 faster than road estimate",
+    "timestamp": 1788354863982.2935,
+    "plate": "MP07JV2640"
+  },
+  {
+    "id": "AL_121",
+    "level": "info",
+    "title": "Low OCR confidence",
+    "detail": "MP07JV2640 at CAM_011 · 87.5%",
+    "timestamp": 1788354863982.2935,
+    "plate": "MP07JV2640",
+    "cameraId": "CAM_011"
+  },
+  {
+    "id": "AL_116",
+    "level": "info",
+    "title": "Low OCR confidence",
+    "detail": "MP07AP2257 at CAM_028 · 88.1%",
+    "timestamp": 1788355878629.51,
+    "plate": "MP07AP2257",
+    "cameraId": "CAM_028"
+  },
+  {
+    "id": "AL_114",
+    "level": "info",
+    "title": "Low OCR confidence",
+    "detail": "MP07TR8821 at CAM_015 · 88.7%",
+    "timestamp": 1788357661052.8843,
+    "plate": "MP07TR8821",
+    "cameraId": "CAM_015"
+  },
+  {
+    "id": "AL_190",
+    "level": "info",
+    "title": "Low OCR confidence",
+    "detail": "MP09VJ6672 at CAM_015 · 87.6%",
+    "timestamp": 1788397170170.7798,
+    "plate": "MP09VJ6672",
+    "cameraId": "CAM_015"
+  },
+  {
+    "id": "AL_196",
+    "level": "info",
+    "title": "Low OCR confidence",
+    "detail": "MP09LP5824 at CAM_028 · 87.1%",
+    "timestamp": 1788397434407.1047,
+    "plate": "MP09LP5824",
+    "cameraId": "CAM_028"
+  },
+  {
+    "id": "AL_187",
+    "level": "warn",
+    "title": "Implausible transit",
+    "detail": "MP07BF7277 CAM_028 → CAM_057 faster than road estimate",
+    "timestamp": 1788398756073.3962,
+    "plate": "MP07BF7277"
+  },
+  {
+    "id": "AL_193",
+    "level": "info",
+    "title": "Low OCR confidence",
+    "detail": "MP07AJ7394 at CAM_028 · 86.3%",
+    "timestamp": 1788401182183.6208,
+    "plate": "MP07AJ7394",
+    "cameraId": "CAM_028"
+  },
+  {
+    "id": "AL_175",
+    "level": "info",
+    "title": "Low OCR confidence",
+    "detail": "MP07JJ4738 at CAM_057 · 88.8%",
+    "timestamp": 1788402284962.5496,
+    "plate": "MP07JJ4738",
+    "cameraId": "CAM_057"
+  },
+  {
+    "id": "AL_158",
+    "level": "critical",
+    "title": "Watchlist plate",
+    "detail": "MP07TR8821 observed at Gwalior Junction",
+    "timestamp": 1788402951395.7246,
+    "plate": "MP07TR8821",
+    "cameraId": "CAM_023"
+  },
+  {
+    "id": "AL_173",
+    "level": "info",
+    "title": "Low OCR confidence",
+    "detail": "MP09RP8559 at CAM_011 · 87.4%",
+    "timestamp": 1788403038169.3242,
+    "plate": "MP09RP8559",
+    "cameraId": "CAM_011"
+  },
+  {
+    "id": "AL_174",
+    "level": "info",
+    "title": "Low OCR confidence",
+    "detail": "MP09RP8559 at CAM_015 · 87.0%",
+    "timestamp": 1788403196528.3232,
+    "plate": "MP09RP8559",
+    "cameraId": "CAM_015"
+  },
+  {
+    "id": "AL_165",
+    "level": "info",
+    "title": "Low OCR confidence",
+    "detail": "MP07TT3708 at CAM_028 · 88.2%",
+    "timestamp": 1788403235589.621,
+    "plate": "MP07TT3708",
+    "cameraId": "CAM_028"
+  },
+  {
+    "id": "AL_184",
+    "level": "info",
+    "title": "Low OCR confidence",
+    "detail": "MP04JJ9576 at CAM_049 · 88.2%",
+    "timestamp": 1788403474234.384,
+    "plate": "MP04JJ9576",
+    "cameraId": "CAM_049"
+  },
+  {
+    "id": "AL_169",
+    "level": "warn",
+    "title": "Implausible transit",
+    "detail": "MP07JA5573 CAM_057 → CAM_076 faster than road estimate",
+    "timestamp": 1788403561316.5916,
+    "plate": "MP07JA5573"
+  },
+  {
+    "id": "AL_170",
+    "level": "info",
+    "title": "Low OCR confidence",
+    "detail": "MP07JA5573 at CAM_076 · 86.6%",
+    "timestamp": 1788403561316.5916,
+    "plate": "MP07JA5573",
+    "cameraId": "CAM_076"
+  },
+  {
+    "id": "AL_185",
+    "level": "warn",
+    "title": "Implausible transit",
+    "detail": "MP04JJ9576 CAM_028 → CAM_057 faster than road estimate",
+    "timestamp": 1788403825166.794,
+    "plate": "MP04JJ9576"
+  },
+  {
+    "id": "AL_157",
+    "level": "critical",
+    "title": "Watchlist plate",
+    "detail": "MP04ST3344 observed at Kampoo",
+    "timestamp": 1788404252477.535,
+    "plate": "MP04ST3344",
+    "cameraId": "CAM_015"
+  },
+  {
+    "id": "AL_172",
+    "level": "info",
+    "title": "Low OCR confidence",
+    "detail": "MP07LH8506 at CAM_057 · 86.3%",
+    "timestamp": 1788405684986.316,
+    "plate": "MP07LH8506",
+    "cameraId": "CAM_057"
+  },
+  {
+    "id": "AL_183",
+    "level": "info",
+    "title": "Low OCR confidence",
+    "detail": "MP09BM9388 at CAM_034 · 86.5%",
+    "timestamp": 1788418373737.6,
+    "plate": "MP09BM9388",
+    "cameraId": "CAM_034"
+  },
+  {
+    "id": "AL_179",
+    "level": "info",
+    "title": "Low OCR confidence",
+    "detail": "MP07RT8255 at CAM_081 · 86.3%",
+    "timestamp": 1788422153659.149,
+    "plate": "MP07RT8255",
+    "cameraId": "CAM_081"
+  },
+  {
+    "id": "AL_188",
+    "level": "info",
+    "title": "Low OCR confidence",
+    "detail": "MP07BF7277 at CAM_011 · 88.2%",
+    "timestamp": 1788425368251.0105,
+    "plate": "MP07BF7277",
+    "cameraId": "CAM_011"
+  },
+  {
+    "id": "AL_191",
+    "level": "info",
+    "title": "Low OCR confidence",
+    "detail": "MP07FM4740 at CAM_015 · 87.9%",
+    "timestamp": 1788425506739.9214,
+    "plate": "MP07FM4740",
+    "cameraId": "CAM_015"
+  },
+  {
+    "id": "AL_189",
+    "level": "info",
+    "title": "Low OCR confidence",
+    "detail": "MP04MK4700 at CAM_076 · 86.0%",
+    "timestamp": 1788427006987.7766,
+    "plate": "MP04MK4700",
+    "cameraId": "CAM_076"
+  },
+  {
+    "id": "AL_195",
+    "level": "info",
+    "title": "Low OCR confidence",
+    "detail": "MP07KF5963 at CAM_057 · 87.1%",
+    "timestamp": 1788430217699.7202,
+    "plate": "MP07KF5963",
+    "cameraId": "CAM_057"
+  },
+  {
+    "id": "AL_182",
+    "level": "info",
+    "title": "Low OCR confidence",
+    "detail": "MP07KF1686 at CAM_015 · 87.1%",
+    "timestamp": 1788430524391.383,
+    "plate": "MP07KF1686",
+    "cameraId": "CAM_015"
+  },
+  {
+    "id": "AL_194",
+    "level": "info",
+    "title": "Low OCR confidence",
+    "detail": "MP07AJ7394 at CAM_028 · 86.6%",
+    "timestamp": 1788432085726.8645,
+    "plate": "MP07AJ7394",
+    "cameraId": "CAM_028"
+  },
+  {
+    "id": "AL_178",
+    "level": "info",
+    "title": "Low OCR confidence",
+    "detail": "MP04BC4479 at CAM_011 · 86.3%",
+    "timestamp": 1788433058321.331,
+    "plate": "MP04BC4479",
+    "cameraId": "CAM_011"
+  },
+  {
+    "id": "AL_192",
+    "level": "info",
+    "title": "Low OCR confidence",
+    "detail": "MP04MJ6108 at CAM_049 · 87.5%",
+    "timestamp": 1788433437503.164,
+    "plate": "MP04MJ6108",
+    "cameraId": "CAM_049"
+  },
+  {
+    "id": "AL_197",
+    "level": "warn",
+    "title": "Implausible transit",
+    "detail": "MP09LP5824 CAM_049 → CAM_028 faster than road estimate",
+    "timestamp": 1788434027549.7957,
+    "plate": "MP09LP5824"
+  },
+  {
+    "id": "AL_176",
+    "level": "info",
+    "title": "Low OCR confidence",
+    "detail": "MP07VR6138 at CAM_011 · 86.0%",
+    "timestamp": 1788436613770.9023,
+    "plate": "MP07VR6138",
+    "cameraId": "CAM_011"
+  },
+  {
+    "id": "AL_159",
+    "level": "info",
+    "title": "Low OCR confidence",
+    "detail": "MP04LB9882 at CAM_034 · 87.0%",
+    "timestamp": 1788436868596.559,
+    "plate": "MP04LB9882",
+    "cameraId": "CAM_034"
+  },
+  {
+    "id": "AL_166",
+    "level": "info",
+    "title": "Low OCR confidence",
+    "detail": "MP07JB5622 at CAM_011 · 86.5%",
+    "timestamp": 1788436910480.934,
+    "plate": "MP07JB5622",
+    "cameraId": "CAM_011"
+  },
+  {
+    "id": "AL_177",
+    "level": "info",
+    "title": "Low OCR confidence",
+    "detail": "MP04VJ4936 at CAM_011 · 88.1%",
+    "timestamp": 1788437428557.323,
+    "plate": "MP04VJ4936",
+    "cameraId": "CAM_011"
+  },
+  {
+    "id": "AL_164",
+    "level": "info",
+    "title": "Low OCR confidence",
+    "detail": "MP07AC2285 at CAM_023 · 87.9%",
+    "timestamp": 1788437715203.6057,
+    "plate": "MP07AC2285",
+    "cameraId": "CAM_023"
+  },
+  {
+    "id": "AL_171",
+    "level": "info",
+    "title": "Low OCR confidence",
+    "detail": "MP07LK6433 at CAM_076 · 87.7%",
+    "timestamp": 1788437766937.0698,
+    "plate": "MP07LK6433",
+    "cameraId": "CAM_076"
+  },
+  {
+    "id": "AL_160",
+    "level": "info",
+    "title": "Low OCR confidence",
+    "detail": "MP04HJ8695 at CAM_062 · 88.7%",
+    "timestamp": 1788439253166.515,
+    "plate": "MP04HJ8695",
+    "cameraId": "CAM_062"
+  },
+  {
+    "id": "AL_168",
+    "level": "info",
+    "title": "Low OCR confidence",
+    "detail": "MP09CV4656 at CAM_042 · 88.8%",
+    "timestamp": 1788439385026.8403,
+    "plate": "MP09CV4656",
+    "cameraId": "CAM_042"
+  },
+  {
+    "id": "AL_198",
+    "level": "warn",
+    "title": "Corridor saturation",
+    "detail": "Thatipur Crossing evening peak",
+    "timestamp": 1788439720171.361,
+    "cameraId": "CAM_023"
+  },
+  {
+    "id": "AL_180",
+    "level": "info",
+    "title": "Low OCR confidence",
+    "detail": "MP04LB1590 at CAM_023 · 86.2%",
+    "timestamp": 1788440111774.0698,
+    "plate": "MP04LB1590",
+    "cameraId": "CAM_023"
+  },
+  {
+    "id": "AL_161",
+    "level": "info",
+    "title": "Low OCR confidence",
+    "detail": "MPO9BK2315 at CAM_062 · 86.9%",
+    "timestamp": 1788441523319.8308,
+    "plate": "MP09BK2315",
+    "cameraId": "CAM_062"
+  },
+  {
+    "id": "AL_167",
+    "level": "info",
+    "title": "Low OCR confidence",
+    "detail": "MP07HA6392 at CAM_028 · 87.7%",
+    "timestamp": 1788441766992.8943,
+    "plate": "MP07HA6392",
+    "cameraId": "CAM_028"
+  },
+  {
+    "id": "AL_181",
+    "level": "info",
+    "title": "Low OCR confidence",
+    "detail": "MP04RR9770 at CAM_057 · 86.0%",
+    "timestamp": 1788441990291.5227,
+    "plate": "MP04RR9770",
+    "cameraId": "CAM_057"
+  },
+  {
+    "id": "AL_186",
+    "level": "info",
+    "title": "Low OCR confidence",
+    "detail": "MP04JJ9576 at CAM_057 · 88.1%",
+    "timestamp": 1788442475839.006,
+    "plate": "MP04JJ9576",
+    "cameraId": "CAM_057"
+  },
+  {
+    "id": "AL_163",
+    "level": "info",
+    "title": "Low OCR confidence",
+    "detail": "MP09MH8599 at CAM_076 · 87.8%",
+    "timestamp": 1788442722097.4631,
+    "plate": "MP09MH8599",
+    "cameraId": "CAM_076"
+  },
+  {
+    "id": "AL_162",
+    "level": "info",
+    "title": "Low OCR confidence",
+    "detail": "MP07AV6469 at CAM_034 · 86.1%",
+    "timestamp": 1788444460764.5317,
+    "plate": "MP07AV6469",
+    "cameraId": "CAM_034"
+  },
+  {
+    "id": "AL_234",
+    "level": "info",
+    "title": "Low OCR confidence",
+    "detail": "MP07PP6085 at CAM_034 · 86.8%",
+    "timestamp": 1788483706987.4858,
+    "plate": "MP07PP6085",
+    "cameraId": "CAM_034"
+  },
+  {
+    "id": "AL_238",
+    "level": "info",
+    "title": "Low OCR confidence",
+    "detail": "MP07AR7384 at CAM_062 · 87.6%",
+    "timestamp": 1788484548803.013,
+    "plate": "MP07AR7384",
+    "cameraId": "CAM_062"
+  },
+  {
+    "id": "AL_205",
+    "level": "info",
+    "title": "Low OCR confidence",
+    "detail": "MP04HJ8695 at CAM_011 · 86.6%",
+    "timestamp": 1788486323230.3533,
+    "plate": "MP04HJ8695",
+    "cameraId": "CAM_011"
+  },
+  {
+    "id": "AL_223",
+    "level": "info",
+    "title": "Low OCR confidence",
+    "detail": "MP07VJ1928 at CAM_049 · 88.7%",
+    "timestamp": 1788487125555.8962,
+    "plate": "MP07VJ1928",
+    "cameraId": "CAM_049"
+  },
+  {
+    "id": "AL_228",
+    "level": "info",
+    "title": "Low OCR confidence",
+    "detail": "MP07BB1157 at CAM_011 · 86.2%",
+    "timestamp": 1788487444134.856,
+    "plate": "MP07BB1157",
+    "cameraId": "CAM_011"
+  },
+  {
+    "id": "AL_204",
+    "level": "warn",
+    "title": "Implausible transit",
+    "detail": "MP07FL7982 CAM_062 → CAM_057 faster than road estimate",
+    "timestamp": 1788488723679.4512,
+    "plate": "MP07FL7982"
+  },
+  {
+    "id": "AL_218",
+    "level": "info",
+    "title": "Low OCR confidence",
+    "detail": "MP04JC7469 at CAM_057 · 86.4%",
+    "timestamp": 1788489226943.9368,
+    "plate": "MP04JC7469",
+    "cameraId": "CAM_057"
+  },
+  {
+    "id": "AL_201",
+    "level": "critical",
+    "title": "Watchlist plate",
+    "detail": "MP07TR8821 observed at Gwalior Junction",
+    "timestamp": 1788490218905.522,
+    "plate": "MP07TR8821",
+    "cameraId": "CAM_023"
+  },
+  {
+    "id": "AL_199",
+    "level": "info",
+    "title": "Low OCR confidence",
+    "detail": "MP04ST3344 at CAM_015 · 88.6%",
+    "timestamp": 1788490302573.0151,
+    "plate": "MP04ST3344",
+    "cameraId": "CAM_015"
+  },
+  {
+    "id": "AL_200",
+    "level": "critical",
+    "title": "Watchlist plate",
+    "detail": "MP04ST3344 observed at Kampoo",
+    "timestamp": 1788490302573.0151,
+    "plate": "MP04ST3344",
+    "cameraId": "CAM_015"
+  },
+  {
+    "id": "AL_206",
+    "level": "info",
+    "title": "Low OCR confidence",
+    "detail": "MP07AP2257 at CAM_057 · 86.7%",
+    "timestamp": 1788490933855.8286,
+    "plate": "MP07AP2257",
+    "cameraId": "CAM_057"
+  },
+  {
+    "id": "AL_207",
+    "level": "info",
+    "title": "Low OCR confidence",
+    "detail": "MP07AP2257 at CAM_028 · 86.0%",
+    "timestamp": 1788491132048.575,
+    "plate": "MP07AP2257",
+    "cameraId": "CAM_028"
+  },
+  {
+    "id": "AL_208",
+    "level": "warn",
+    "title": "Implausible transit",
+    "detail": "MP09LV3192 CAM_062 → CAM_011 faster than road estimate",
+    "timestamp": 1788491892041.7188,
+    "plate": "MP09LV3192"
+  },
+  {
+    "id": "AL_212",
+    "level": "info",
+    "title": "Low OCR confidence",
+    "detail": "MP07RC1402 at CAM_011 · 86.7%",
+    "timestamp": 1788492175206.2258,
+    "plate": "MP07RC1402",
+    "cameraId": "CAM_011"
+  },
+  {
+    "id": "AL_216",
+    "level": "warn",
+    "title": "Implausible transit",
+    "detail": "MP04BJ2888 CAM_057 → CAM_081 faster than road estimate",
+    "timestamp": 1788492733538.4507,
+    "plate": "MP04BJ2888"
+  },
+  {
+    "id": "AL_211",
+    "level": "info",
+    "title": "Low OCR confidence",
+    "detail": "MP04HP1221 at CAM_062 · 87.1%",
+    "timestamp": 1788494783451.52,
+    "plate": "MP04HP1221",
+    "cameraId": "CAM_062"
+  },
+  {
+    "id": "AL_221",
+    "level": "info",
+    "title": "Low OCR confidence",
+    "detail": "MP07PL3062 at CAM_042 · 87.6%",
+    "timestamp": 1788496593028.7275,
+    "plate": "MP07PL3062",
+    "cameraId": "CAM_042"
+  },
+  {
+    "id": "AL_239",
+    "level": "info",
+    "title": "Low OCR confidence",
+    "detail": "MP09AL2964 at CAM_028 · 86.7%",
+    "timestamp": 1788507723352.8677,
+    "plate": "MP09AL2964",
+    "cameraId": "CAM_028"
+  },
+  {
+    "id": "AL_233",
+    "level": "info",
+    "title": "Low OCR confidence",
+    "detail": "MP07JV1700 at CAM_042 · 87.4%",
+    "timestamp": 1788508311039.59,
+    "plate": "MP07JV1700",
+    "cameraId": "CAM_042"
+  },
+  {
+    "id": "AL_232",
+    "level": "info",
+    "title": "Low OCR confidence",
+    "detail": "MP07FM4740 at CAM_023 · 86.9%",
+    "timestamp": 1788508784590.0344,
+    "plate": "MP07FM4740",
+    "cameraId": "CAM_023"
+  },
+  {
+    "id": "AL_226",
+    "level": "info",
+    "title": "Low OCR confidence",
+    "detail": "MP07VP3320 at CAM_057 · 86.8%",
+    "timestamp": 1788509615278.629,
+    "plate": "MP07VP3320",
+    "cameraId": "CAM_057"
+  },
+  {
+    "id": "AL_227",
+    "level": "info",
+    "title": "Low OCR confidence",
+    "detail": "MP07VP3320 at CAM_081 · 86.5%",
+    "timestamp": 1788509932576.6558,
+    "plate": "MP07VP3320",
+    "cameraId": "CAM_081"
+  },
+  {
+    "id": "AL_229",
+    "level": "info",
+    "title": "Low OCR confidence",
+    "detail": "MP07BL3995 at CAM_028 · 88.1%",
+    "timestamp": 1788510179453.3037,
+    "plate": "MP07BL3995",
+    "cameraId": "CAM_028"
+  },
+  {
+    "id": "AL_230",
+    "level": "info",
+    "title": "Low OCR confidence",
+    "detail": "MP07BL3995 at CAM_011 · 88.6%",
+    "timestamp": 1788510460966.029,
+    "plate": "MP07BL3995",
+    "cameraId": "CAM_011"
+  },
+  {
+    "id": "AL_235",
+    "level": "warn",
+    "title": "Implausible transit",
+    "detail": "MP07AJ7394 CAM_023 → CAM_011 faster than road estimate",
+    "timestamp": 1788511661100.59,
+    "plate": "MP07AJ7394"
+  },
+  {
+    "id": "AL_231",
+    "level": "warn",
+    "title": "Implausible transit",
+    "detail": "MP09VJ6672 CAM_015 → CAM_011 faster than road estimate",
+    "timestamp": 1788519061183.8145,
+    "plate": "MP09VJ6672"
+  },
+  {
+    "id": "AL_236",
+    "level": "info",
+    "title": "Low OCR confidence",
+    "detail": "MP09MC4214 at CAM_076 · 88.3%",
+    "timestamp": 1788519724344.7825,
+    "plate": "MP09MC4214",
+    "cameraId": "CAM_076"
+  },
+  {
+    "id": "AL_237",
+    "level": "info",
+    "title": "Low OCR confidence",
+    "detail": "MP09MC4214 at CAM_057 · 86.4%",
+    "timestamp": 1788520149366.4468,
+    "plate": "MP09MC4214",
+    "cameraId": "CAM_057"
+  },
+  {
+    "id": "AL_225",
+    "level": "info",
+    "title": "Low OCR confidence",
+    "detail": "MP04MK4700 at CAM_076 · 86.2%",
+    "timestamp": 1788522807008.7427,
+    "plate": "MP04MK4700",
+    "cameraId": "CAM_076"
+  },
+  {
+    "id": "AL_214",
+    "level": "info",
+    "title": "Low OCR confidence",
+    "detail": "MP07HA6392 at CAM_028 · 86.8%",
+    "timestamp": 1788524089928.987,
+    "plate": "MP07HA6392",
+    "cameraId": "CAM_028"
+  },
+  {
+    "id": "AL_209",
+    "level": "info",
+    "title": "Low OCR confidence",
+    "detail": "MP07TT3708 at CAM_028 · 87.4%",
+    "timestamp": 1788524569234.409,
+    "plate": "MP07TT3708",
+    "cameraId": "CAM_028"
+  },
+  {
+    "id": "AL_203",
+    "level": "info",
+    "title": "Low OCR confidence",
+    "detail": "MP07KP6265 at CAM_057 · 87.2%",
+    "timestamp": 1788526309636.6985,
+    "plate": "MP07KP6265",
+    "cameraId": "CAM_057"
+  },
+  {
+    "id": "AL_240",
+    "level": "warn",
+    "title": "Corridor saturation",
+    "detail": "Thatipur Crossing evening peak",
+    "timestamp": 1788526862018.8276,
+    "cameraId": "CAM_023"
+  },
+  {
+    "id": "AL_213",
+    "level": "info",
+    "title": "Low OCR confidence",
+    "detail": "MP07RC1402 at CAM_011 · 86.1%",
+    "timestamp": 1788527260967.8635,
+    "plate": "MP07RC1402",
+    "cameraId": "CAM_011"
+  },
+  {
+    "id": "AL_210",
+    "level": "warn",
+    "title": "Implausible transit",
+    "detail": "MP07JB5622 CAM_062 → CAM_011 faster than road estimate",
+    "timestamp": 1788527323414.4465,
+    "plate": "MP07JB5622"
+  },
+  {
+    "id": "AL_222",
+    "level": "info",
+    "title": "Low OCR confidence",
+    "detail": "MP07VP3157 at CAM_011 · 88.2%",
+    "timestamp": 1788527379782.7102,
+    "plate": "MP07VP3157",
+    "cameraId": "CAM_011"
+  },
+  {
+    "id": "AL_220",
+    "level": "info",
+    "title": "Low OCR confidence",
+    "detail": "MP09KR1689 at CAM_076 · 86.2%",
+    "timestamp": 1788527447637.1165,
+    "plate": "MP09KR1689",
+    "cameraId": "CAM_076"
+  },
+  {
+    "id": "AL_224",
+    "level": "warn",
+    "title": "Implausible transit",
+    "detail": "MP04JJ9576 CAM_057 → CAM_028 faster than road estimate",
+    "timestamp": 1788527882240.2886,
+    "plate": "MP04JJ9576"
+  },
+  {
+    "id": "AL_217",
+    "level": "info",
+    "title": "Low OCR confidence",
+    "detail": "MP07BR7601 at CAM_057 · 88.1%",
+    "timestamp": 1788528111709.6558,
+    "plate": "MP07BR7601",
+    "cameraId": "CAM_057"
+  },
+  {
+    "id": "AL_219",
+    "level": "info",
+    "title": "Low OCR confidence",
+    "detail": "MP04JC7469 at CAM_062 · 88.1%",
+    "timestamp": 1788528429767.5256,
+    "plate": "MP04JC7469",
+    "cameraId": "CAM_062"
+  },
+  {
+    "id": "AL_215",
+    "level": "info",
+    "title": "Low OCR confidence",
+    "detail": "MP07JF5662 at CAM_028 · 86.2%",
+    "timestamp": 1788528521753.5938,
+    "plate": "MP07JF5662",
+    "cameraId": "CAM_028"
+  },
+  {
+    "id": "AL_202",
+    "level": "info",
+    "title": "Low OCR confidence",
+    "detail": "MP04LB9882 at CAM_042 · 87.4%",
+    "timestamp": 1788529760206.4788,
+    "plate": "MP04LB9882",
+    "cameraId": "CAM_042"
+  }
+]

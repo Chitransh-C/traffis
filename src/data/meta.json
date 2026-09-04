@@ -1,0 +1,66 @@
+{
+  "city": "Gwalior",
+  "state": "Madhya Pradesh",
+  "sector": "Lashkar–Junction–City Centre",
+  "center": [
+    26.217,
+    78.185
+  ],
+  "zoom": 13.15,
+  "weekStart": 1787963400000,
+  "weekEnd": 1788568200000,
+  "dayStart": 1787963400000,
+  "dayEnd": 1788021000000,
+  "dateLabel": "Sat, 29 Aug – Fri, 04 Sept",
+  "days": [
+    {
+      "iso": "2026-08-29",
+      "start": 1787963400000,
+      "end": 1788021000000,
+      "label": "Sat, 29 Aug",
+      "weekday": 6
+    },
+    {
+      "iso": "2026-08-30",
+      "start": 1788049800000,
+      "end": 1788107400000,
+      "label": "Sun, 30 Aug",
+      "weekday": 0
+    },
+    {
+      "iso": "2026-08-31",
+      "start": 1788136200000,
+      "end": 1788193800000,
+      "label": "Mon, 31 Aug",
+      "weekday": 1
+    },
+    {
+      "iso": "2026-09-01",
+      "start": 1788222600000,
+      "end": 1788280200000,
+      "label": "Tue, 01 Sept",
+      "weekday": 2
+    },
+    {
+      "iso": "2026-09-02",
+      "start": 1788309000000,
+      "end": 1788366600000,
+      "label": "Wed, 02 Sept",
+      "weekday": 3
+    },
+    {
+      "iso": "2026-09-03",
+      "start": 1788395400000,
+      "end": 1788453000000,
+      "label": "Thu, 03 Sept",
+      "weekday": 4
+    },
+    {
+      "iso": "2026-09-04",
+      "start": 1788481800000,
+      "end": 1788539400000,
+      "label": "Fri, 04 Sept",
+      "weekday": 5
+    }
+  ]
+}

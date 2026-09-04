@@ -1,0 +1,108 @@
+{
+  "graph": {
+    "CAM_011": [
+      "CAM_023",
+      "CAM_015",
+      "CAM_062",
+      "CAM_103"
+    ],
+    "CAM_015": [
+      "CAM_011",
+      "CAM_103",
+      "CAM_042"
+    ],
+    "CAM_023": [
+      "CAM_011",
+      "CAM_042",
+      "CAM_049",
+      "CAM_028"
+    ],
+    "CAM_028": [
+      "CAM_023",
+      "CAM_057",
+      "CAM_049"
+    ],
+    "CAM_034": [
+      "CAM_042",
+      "CAM_103"
+    ],
+    "CAM_042": [
+      "CAM_023",
+      "CAM_015",
+      "CAM_034",
+      "CAM_049"
+    ],
+    "CAM_049": [
+      "CAM_023",
+      "CAM_042",
+      "CAM_028"
+    ],
+    "CAM_057": [
+      "CAM_028",
+      "CAM_062",
+      "CAM_076",
+      "CAM_081"
+    ],
+    "CAM_062": [
+      "CAM_011",
+      "CAM_057",
+      "CAM_076"
+    ],
+    "CAM_076": [
+      "CAM_057",
+      "CAM_062",
+      "CAM_081"
+    ],
+    "CAM_081": [
+      "CAM_057",
+      "CAM_076"
+    ],
+    "CAM_103": [
+      "CAM_011",
+      "CAM_015",
+      "CAM_034"
+    ]
+  },
+  "labels": {
+    "CAM_011|CAM_015": "Bada – Kampoo",
+    "CAM_011|CAM_023": "Bada – Junction",
+    "CAM_011|CAM_062": "Bada – Gole ka Mandir",
+    "CAM_011|CAM_103": "Airport approach",
+    "CAM_015|CAM_042": "Kampoo – Phoolbagh",
+    "CAM_015|CAM_103": "Kampoo – Airport Rd",
+    "CAM_023|CAM_028": "Junction – Nazar Bagh",
+    "CAM_023|CAM_042": "Station – Phoolbagh",
+    "CAM_023|CAM_049": "Junction – Padav",
+    "CAM_028|CAM_049": "Nazar Bagh – Padav",
+    "CAM_028|CAM_057": "Nazar Bagh – City Centre",
+    "CAM_034|CAM_042": "Lashkar – Phoolbagh",
+    "CAM_034|CAM_103": "Lashkar – Airport Rd",
+    "CAM_042|CAM_049": "Phoolbagh – Padav",
+    "CAM_057|CAM_062": "City Centre – Gole ka Mandir",
+    "CAM_057|CAM_076": "City Centre – DD Nagar",
+    "CAM_057|CAM_081": "University Rd",
+    "CAM_062|CAM_076": "Gole ka Mandir – DD Nagar",
+    "CAM_076|CAM_081": "DD Nagar – Thatipur"
+  },
+  "edges": {
+    "CAM_011|CAM_015": { "class": "narrow", "lanes": 2, "truckOk": false, "label": "Bada – Kampoo" },
+    "CAM_011|CAM_023": { "class": "corridor", "lanes": 3, "truckOk": true, "label": "Bada – Junction" },
+    "CAM_011|CAM_062": { "class": "corridor", "lanes": 3, "truckOk": true, "label": "Bada – Gole ka Mandir" },
+    "CAM_011|CAM_103": { "class": "arterial", "lanes": 3, "truckOk": true, "label": "Airport approach" },
+    "CAM_015|CAM_042": { "class": "market", "lanes": 2, "truckOk": true, "label": "Kampoo – Phoolbagh" },
+    "CAM_015|CAM_103": { "class": "arterial", "lanes": 3, "truckOk": true, "label": "Kampoo – Airport Rd" },
+    "CAM_023|CAM_028": { "class": "corridor", "lanes": 3, "truckOk": true, "label": "Junction – Nazar Bagh" },
+    "CAM_023|CAM_042": { "class": "corridor", "lanes": 3, "truckOk": true, "label": "Station – Phoolbagh" },
+    "CAM_023|CAM_049": { "class": "corridor", "lanes": 3, "truckOk": true, "label": "Junction – Padav" },
+    "CAM_028|CAM_049": { "class": "market", "lanes": 2, "truckOk": true, "label": "Nazar Bagh – Padav" },
+    "CAM_028|CAM_057": { "class": "arterial", "lanes": 4, "truckOk": true, "label": "Nazar Bagh – City Centre" },
+    "CAM_034|CAM_042": { "class": "market", "lanes": 2, "truckOk": false, "label": "Lashkar – Phoolbagh" },
+    "CAM_034|CAM_103": { "class": "narrow", "lanes": 2, "truckOk": false, "label": "Lashkar – Airport Rd" },
+    "CAM_042|CAM_049": { "class": "corridor", "lanes": 3, "truckOk": true, "label": "Phoolbagh – Padav" },
+    "CAM_057|CAM_062": { "class": "arterial", "lanes": 4, "truckOk": true, "label": "City Centre – Gole ka Mandir" },
+    "CAM_057|CAM_076": { "class": "arterial", "lanes": 3, "truckOk": true, "label": "City Centre – DD Nagar" },
+    "CAM_057|CAM_081": { "class": "corridor", "lanes": 3, "truckOk": true, "label": "University Rd" },
+    "CAM_062|CAM_076": { "class": "corridor", "lanes": 3, "truckOk": true, "label": "Gole ka Mandir – DD Nagar" },
+    "CAM_076|CAM_081": { "class": "corridor", "lanes": 3, "truckOk": true, "label": "DD Nagar – Thatipur" }
+  }
+}

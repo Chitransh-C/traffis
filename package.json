@@ -1,0 +1,29 @@
+{
+  "name": "traffis-command",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "api": "npm --prefix backend run dev",
+    "db:up": "docker compose up -d",
+    "db:seed": "npm --prefix backend run seed",
+    "generate": "npx --yes tsx scripts/generate-demo-data.ts && npx --yes tsx scripts/fetch-road-paths.ts",
+    "build": "tsc --noEmit && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "lucide-react": "^0.544.0",
+    "maplibre-gl": "^5.7.1",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
+    "recharts": "^3.2.1"
+  },
+  "devDependencies": {
+    "@types/react": "^19.1.13",
+    "@types/react-dom": "^19.1.9",
+    "@vitejs/plugin-react": "^5.0.3",
+    "typescript": "^5.9.2",
+    "vite": "^7.1.5"
+  }
+}

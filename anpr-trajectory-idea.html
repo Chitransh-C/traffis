@@ -1,0 +1,522 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>City-Wide ANPR Trajectory &amp; GIS Analytics | BEL Concept</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --bg: #070b12;
+      --bg-2: #0c1320;
+      --panel: #101827;
+      --panel-2: #152033;
+      --line: rgba(125, 211, 252, 0.18);
+      --text: #e8eef7;
+      --muted: #93a4bb;
+      --cyan: #38bdf8;
+      --teal: #2dd4bf;
+      --amber: #fbbf24;
+      --rose: #fb7185;
+      --lime: #86efac;
+      --violet: #a78bfa;
+      --shadow: 0 24px 60px rgba(0, 0, 0, 0.35);
+    }
+
+    * { box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      margin: 0;
+      color: var(--text);
+      font-family: Outfit, sans-serif;
+      background:
+        radial-gradient(900px 500px at 10% -10%, rgba(56, 189, 248, 0.16), transparent 50%),
+        radial-gradient(800px 420px at 90% 0%, rgba(45, 212, 191, 0.1), transparent 46%),
+        var(--bg);
+    }
+
+    .wrap { width: min(1180px, calc(100% - 40px)); margin: 0 auto; }
+    nav {
+      position: sticky; top: 0; z-index: 20;
+      backdrop-filter: blur(16px);
+      background: rgba(7, 11, 18, 0.72);
+      border-bottom: 1px solid var(--line);
+    }
+    nav .wrap {
+      display: flex; gap: 18px; align-items: center;
+      justify-content: space-between; padding: 14px 0;
+    }
+    .brand { font-weight: 800; letter-spacing: 0.04em; }
+    .brand span { color: var(--cyan); }
+    .nav-links { display: flex; flex-wrap: wrap; gap: 10px 14px; }
+    .nav-links a {
+      color: var(--muted); text-decoration: none; font-size: 13px; font-weight: 500;
+    }
+    .nav-links a:hover { color: var(--cyan); }
+
+    section { padding: 72px 0; }
+    .kicker {
+      color: var(--teal); font-size: 12px; letter-spacing: 0.16em;
+      text-transform: uppercase; font-weight: 700; margin: 0 0 10px;
+    }
+    h1, h2, h3 { margin: 0 0 12px; line-height: 1.15; }
+    h1 { font-size: clamp(34px, 6vw, 62px); }
+    h2 { font-size: clamp(26px, 4vw, 40px); }
+    p { color: var(--muted); line-height: 1.7; }
+    .hero p { font-size: 18px; max-width: 760px; }
+
+    .badge-row { display: flex; flex-wrap: wrap; gap: 8px; margin: 22px 0 0; }
+    .badge {
+      border: 1px solid var(--line); background: rgba(16, 24, 39, 0.7);
+      padding: 7px 11px; border-radius: 999px; font-size: 12px; color: #c9d7ea;
+    }
+
+    .grid { display: grid; gap: 16px; }
+    .g-2 { grid-template-columns: repeat(2, 1fr); }
+    .g-3 { grid-template-columns: repeat(3, 1fr); }
+    .g-4 { grid-template-columns: repeat(4, 1fr); }
+    .g-5 { grid-template-columns: repeat(5, 1fr); }
+
+    .card {
+      background: linear-gradient(180deg, var(--panel), var(--panel-2));
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      padding: 20px;
+      box-shadow: var(--shadow);
+    }
+    .card h3 { font-size: 18px; }
+    .num {
+      width: 36px; height: 36px; border-radius: 10px;
+      display: grid; place-items: center; font-weight: 800;
+      background: rgba(56, 189, 248, 0.12); color: var(--cyan); margin-bottom: 12px;
+    }
+
+    .arch {
+      display: grid; justify-items: center; gap: 10px; text-align: center;
+    }
+    .pipe {
+      width: 2px; height: 22px;
+      background: linear-gradient(var(--cyan), var(--teal));
+    }
+    .node {
+      min-width: 240px; border-radius: 14px; padding: 14px 16px;
+      border: 1px solid var(--line); background: #0f1a2b;
+    }
+    .node strong { display: block; margin-bottom: 6px; }
+    .node ul { margin: 0; padding-left: 18px; text-align: left; color: var(--muted); }
+    .split {
+      width: 100%;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 16px;
+      position: relative;
+    }
+    .split::before {
+      content: "";
+      position: absolute; left: 50%; top: -10px;
+      width: 50%; height: 2px; transform: translateX(-50%);
+      background: linear-gradient(90deg, var(--cyan), var(--violet));
+    }
+
+    .mono { font-family: "IBM Plex Mono", monospace; font-size: 13px; }
+    pre {
+      margin: 0; overflow: auto; white-space: pre-wrap;
+      background: #091018; border: 1px solid var(--line);
+      border-radius: 14px; padding: 16px; color: #d7e6f7;
+    }
+    .traj {
+      display: flex; align-items: center; justify-content: space-between;
+      gap: 8px; flex-wrap: wrap;
+    }
+    .cam {
+      flex: 1; min-width: 120px; text-align: center;
+      background: #102033; border: 1px solid var(--line); border-radius: 12px; padding: 12px;
+    }
+    .arrow { color: var(--cyan); font-weight: 800; }
+
+    table { width: 100%; border-collapse: collapse; }
+    th, td {
+      text-align: left; padding: 11px 12px; border-bottom: 1px solid var(--line);
+      font-size: 14px;
+    }
+    th { color: var(--cyan); font-weight: 600; }
+    td:first-child { color: #dbe7f5; }
+
+    .factor {
+      display: flex; align-items: center; gap: 10px;
+      padding: 10px 0; border-bottom: 1px dashed var(--line);
+    }
+    .dot { width: 10px; height: 10px; border-radius: 50%; background: var(--teal); }
+
+    .dash {
+      display: grid; grid-template-columns: 220px 1fr; min-height: 280px;
+      border: 1px solid var(--line); border-radius: 16px; overflow: hidden;
+    }
+    .dash-side { background: #0d1624; padding: 16px; }
+    .metric { margin-bottom: 16px; }
+    .metric b { display: block; font-size: 26px; color: var(--text); }
+    .dash-map {
+      background:
+        radial-gradient(circle at 30% 40%, rgba(251, 113, 133, 0.28), transparent 18%),
+        radial-gradient(circle at 62% 55%, rgba(251, 191, 36, 0.22), transparent 16%),
+        radial-gradient(circle at 78% 30%, rgba(134, 239, 172, 0.18), transparent 14%),
+        linear-gradient(135deg, #102033, #16324a);
+      padding: 18px; position: relative;
+    }
+    .legend { display: flex; gap: 12px; font-size: 13px; }
+    .legend i { display: inline-block; width: 8px; height: 8px; border-radius: 50%; margin-right: 6px; }
+    .route {
+      position: absolute; inset: 28% 18% 30% 16%;
+      border: 2px dashed rgba(56, 189, 248, 0.55);
+      border-radius: 40% 20% 50% 30%;
+    }
+
+    .mvp { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+    .chip {
+      background: #123047; border: 1px solid var(--line);
+      border-radius: 10px; padding: 10px 12px; font-weight: 600;
+    }
+
+    footer {
+      border-top: 1px solid var(--line);
+      padding: 28px 0 40px; color: var(--muted); font-size: 13px;
+    }
+
+    @media (max-width: 860px) {
+      .g-2, .g-3, .g-4, .g-5, .split, .dash { grid-template-columns: 1fr; }
+      .split::before { display: none; }
+      section { padding: 52px 0; }
+    }
+  </style>
+</head>
+<body>
+  <nav>
+    <div class="wrap">
+      <div class="brand">TRAFFIS <span>BEL</span></div>
+      <div class="nav-links">
+        <a href="#idea">Idea</a>
+        <a href="#impact">Impact</a>
+        <a href="#research">Research</a>
+        <a href="#feasibility">Feasibility</a>
+        <a href="#stack">Tech Stack</a>
+        <a href="#approach">Approach</a>
+      </div>
+    </div>
+  </nav>
+
+  <header class="hero" id="idea">
+    <div class="wrap">
+      <p class="kicker">Bharat Electronics Limited · City Intelligence Concept</p>
+      <h1>City-Wide ANPR, Vehicle Trajectory Reconstruction &amp; GIS Traffic Analytics</h1>
+      <p>
+        A distributed event-processing system that turns city CCTV into standardized plate observations,
+        reconstructs vehicle routes across geographically separated cameras, and visualizes congestion,
+        origin–destination flow, and real-time alerts on a GIS command center.
+      </p>
+      <div class="badge-row">
+        <span class="badge">ANPR &gt; 90% OCR target</span>
+        <span class="badge">Probabilistic trajectory engine</span>
+        <span class="badge">PostGIS city map</span>
+        <span class="badge">Real-time alerts</span>
+        <span class="badge">Scalable from 10 → 100+ cameras</span>
+      </div>
+    </div>
+  </header>
+
+  <section>
+    <div class="wrap">
+      <p class="kicker">Core insight</p>
+      <h2>Do not track every vehicle from raw CCTV</h2>
+      <p>Each camera emits a standardized observation. The central system connects those events into a route.</p>
+      <div class="grid g-2" style="margin-top:24px">
+        <div class="card">
+          <h3>Observation event</h3>
+          <pre class="mono">{
+  "plate": "MP07AB1234",
+  "confidence": 0.96,
+  "camera_id": "CAM_042",
+  "timestamp": "2026-09-04T18:32:14",
+  "latitude": 26.2183,
+  "longitude": 78.1828,
+  "direction": "NORTH",
+  "vehicle_type": "car"
+}</pre>
+        </div>
+        <div class="card">
+          <h3>Reconstructed trajectory</h3>
+          <div class="traj">
+            <div class="cam">CAM 042<br /><span class="mono">18:32</span></div>
+            <div class="arrow">→</div>
+            <div class="cam">CAM 057<br /><span class="mono">18:37</span></div>
+            <div class="arrow">→</div>
+            <div class="cam">CAM 081<br /><span class="mono">18:45</span></div>
+            <div class="arrow">→</div>
+            <div class="cam">CAM 103<br /><span class="mono">18:52</span></div>
+          </div>
+          <p style="margin-top:16px">Vehicle <b style="color:#e8eef7">MP07AB1234</b> becomes A → B → C → D and is drawn on the GIS map.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="impact">
+    <div class="wrap">
+      <p class="kicker">Impact and benefits</p>
+      <h2>Why this matters for a city and for BEL</h2>
+      <div class="grid g-3" style="margin-top:24px">
+        <article class="card">
+          <div class="num">01</div>
+          <h3>Operational command</h3>
+          <p>A live city picture: vehicle counts, average speed, congestion heatmaps, and route popularity from the same event stream.</p>
+        </article>
+        <article class="card">
+          <div class="num">02</div>
+          <h3>Public safety &amp; enforcement</h3>
+          <p>Watch-listed plates, stolen vehicles, and unusual hops across the camera graph can raise alerts without continuous video tracking.</p>
+        </article>
+        <article class="card">
+          <div class="num">03</div>
+          <h3>Planning intelligence</h3>
+          <p>Origin–destination matrices, peak-hour demand, and travel-time reliability support signal timing and corridor upgrades.</p>
+        </article>
+        <article class="card">
+          <div class="num">04</div>
+          <h3>Reuse of existing CCTV</h3>
+          <p>Edge ANPR upgrades existing cameras instead of installing a new tracking sensor on every road segment.</p>
+        </article>
+        <article class="card">
+          <div class="num">05</div>
+          <h3>Privacy-aware by design</h3>
+          <p>The system stores structured observations, not endless raw video streams, reducing bandwidth and retention risk.</p>
+        </article>
+        <article class="card">
+          <div class="num">06</div>
+          <h3>Strategic fit for BEL</h3>
+          <p>Matches a defence-electronics brief: distributed sensing, resilient analytics, GIS visualization, and city-scale operations.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="research">
+    <div class="wrap">
+      <p class="kicker">Research and references</p>
+      <h2>Foundations the design is built on</h2>
+      <div class="grid g-2" style="margin-top:24px">
+        <article class="card">
+          <h3>ANPR / ALPR literature</h3>
+          <p>YOLO-class detectors for vehicles and plates; two-stage pipelines (detect → enhance → OCR). PaddleOCR and dedicated ANPR OCR for Indian plates, including multi-line and regional formats.</p>
+        </article>
+        <article class="card">
+          <h3>Multi-camera tracking</h3>
+          <p>Re-identification across non-overlapping views is a classic computer-vision problem. Plate text is a strong ID, but OCR noise requires fuzzy matching and temporal-spatial gating.</p>
+        </article>
+        <article class="card">
+          <h3>Network / GIS traffic science</h3>
+          <p>Road graphs, expected travel times, and OD matrices come from transport engineering. PostGIS shortest-path and map-matching constrain impossible hops.</p>
+        </article>
+        <article class="card">
+          <h3>Event streaming practice</h3>
+          <p>Kafka-style event buses, ClickHouse analytics, and GIS frontends (MapLibre / OpenLayers) are established patterns for city operations platforms.</p>
+        </article>
+      </div>
+      <div class="card" style="margin-top:16px">
+        <h3>Reference themes to cite in a write-up</h3>
+        <p>
+          Automatic Number Plate Recognition surveys · YOLO object detection papers · PaddleOCR / CRNN OCR ·
+          Multi-target multi-camera tracking (MTMCT) · Map-matching and HMM trajectory reconstruction ·
+          Urban OD estimation from probe / camera data · Indian ITS and smart-city camera deployments.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section id="feasibility">
+    <div class="wrap">
+      <p class="kicker">Feasibility and viability</p>
+      <h2>Hard problem, staged so it can ship</h2>
+      <div class="grid g-2" style="margin-top:24px">
+        <article class="card">
+          <h3>What is already viable</h3>
+          <p>Vehicle and plate detection, OCR above 90% in good lighting, event ingestion, PostGIS mapping, and a React command dashboard are all implementable with current open-source stacks.</p>
+        </article>
+        <article class="card">
+          <h3>The real difficulty</h3>
+          <p>OCR is not the hardest part. The hard part is deciding whether two observations from distant cameras belong to the same vehicle and reconstructing a reliable route.</p>
+        </article>
+      </div>
+      <div class="grid g-2" style="margin-top:16px">
+        <article class="card">
+          <h3>Risks to absorb</h3>
+          <div class="factor"><span class="dot" style="background:var(--rose)"></span>OCR confusions: 8 ↔ B, 0 ↔ O</div>
+          <div class="factor"><span class="dot" style="background:var(--rose)"></span>Missed detections and camera outages</div>
+          <div class="factor"><span class="dot" style="background:var(--amber)"></span>Duplicates, similar plates, direction flips</div>
+          <div class="factor"><span class="dot" style="background:var(--amber)"></span>Variable speeds and route changes</div>
+        </article>
+        <article class="card">
+          <h3>Why a staged MVP is viable</h3>
+          <div class="mvp">
+            <span class="chip">10 cameras</span><span class="arrow">→</span>
+            <span class="chip">ANPR</span><span class="arrow">→</span>
+            <span class="chip">Central server</span><span class="arrow">→</span>
+            <span class="chip">PostGIS</span><span class="arrow">→</span>
+            <span class="chip">A→B→C→D demo</span>
+          </div>
+          <p style="margin-top:16px">Prove one vehicle across four cameras. Then scale to 100 cameras, city-wide reconstruction, analytics, and alerts. Architecture stays the same.</p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section id="stack">
+    <div class="wrap">
+      <p class="kicker">Tech stack</p>
+      <h2>Recommended components</h2>
+      <div class="card" style="margin-top:24px; overflow:auto">
+        <table>
+          <thead>
+            <tr><th>Component</th><th>Technology</th></tr>
+          </thead>
+          <tbody>
+            <tr><td>Vehicle detection</td><td>YOLO</td></tr>
+            <tr><td>License plate detection</td><td>YOLO / custom detector</td></tr>
+            <tr><td>OCR</td><td>PaddleOCR / custom ANPR OCR</td></tr>
+            <tr><td>Video processing</td><td>OpenCV + FFmpeg</td></tr>
+            <tr><td>Backend</td><td>FastAPI / Python</td></tr>
+            <tr><td>Event streaming</td><td>Kafka</td></tr>
+            <tr><td>Operational DB</td><td>PostgreSQL</td></tr>
+            <tr><td>Geospatial DB</td><td>PostgreSQL + PostGIS</td></tr>
+            <tr><td>Fast analytics</td><td>ClickHouse</td></tr>
+            <tr><td>GIS</td><td>MapLibre GL / OpenLayers</td></tr>
+            <tr><td>Frontend</td><td>React</td></tr>
+            <tr><td>Caching</td><td>Redis</td></tr>
+            <tr><td>ML inference</td><td>PyTorch</td></tr>
+            <tr><td>Deployment</td><td>Docker + Kubernetes</td></tr>
+            <tr><td>Monitoring</td><td>Prometheus + Grafana</td></tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+  </section>
+
+  <section id="approach">
+    <div class="wrap">
+      <p class="kicker">Technical approach · methodology</p>
+      <h2>Distributed event processing, not continuous tracking</h2>
+
+      <div class="arch" style="margin:28px 0">
+        <div class="node"><strong>City CCTV / ANPR cameras</strong></div>
+        <div class="pipe"></div>
+        <div class="node">
+          <strong>Edge processing</strong>
+          <ul>
+            <li>Vehicle detect</li>
+            <li>Plate detect</li>
+            <li>OCR</li>
+            <li>Direction</li>
+          </ul>
+        </div>
+        <div class="pipe"></div>
+        <div class="node"><strong>Central event gateway · API + message queue</strong></div>
+        <div class="pipe"></div>
+        <div class="split">
+          <div class="node">
+            <strong>Trajectory engine</strong>
+            <ul>
+              <li>plate → camera → timestamp → route</li>
+            </ul>
+          </div>
+          <div class="node">
+            <strong>Traffic analytics</strong>
+            <ul>
+              <li>density · OD matrix · congestion · heatmaps</li>
+            </ul>
+          </div>
+        </div>
+        <div class="pipe"></div>
+        <div class="node"><strong>GIS platform · city map, cameras, routes, heatmaps</strong></div>
+        <div class="pipe"></div>
+        <div class="node"><strong>Web dashboard + alert system</strong></div>
+      </div>
+
+      <h3 style="margin:36px 0 16px">Five modules</h3>
+      <div class="grid g-5">
+        <article class="card">
+          <div class="num">1</div>
+          <h3>ANPR engine</h3>
+          <p class="mono">Video → vehicle → plate → enhance → OCR → confidence + normalize</p>
+        </article>
+        <article class="card">
+          <div class="num">2</div>
+          <h3>Camera network</h3>
+          <p class="mono">id, lat/lon, road, direction, lanes, FOV → city road/camera graph</p>
+        </article>
+        <article class="card">
+          <div class="num">3</div>
+          <h3>Trajectory engine</h3>
+          <p class="mono">clean → time-order → candidate hops → road constraints → path</p>
+        </article>
+        <article class="card">
+          <div class="num">4</div>
+          <h3>Traffic analytics</h3>
+          <p>Counts, density, speed, utilization, OD, peaks, congestion, travel time, popular routes.</p>
+        </article>
+        <article class="card">
+          <div class="num">5</div>
+          <h3>GIS dashboard</h3>
+          <p>Command center: live map, KPIs, heatmaps, OD matrix, trends, alerts.</p>
+        </article>
+      </div>
+
+      <div class="grid g-2" style="margin-top:24px">
+        <article class="card">
+          <h3>Probabilistic matching, not exact string equality</h3>
+          <p>A naive <span class="mono">plate1 == plate2</span> fails in the field. Score a transition instead:</p>
+          <div class="factor"><span class="dot"></span>Plate similarity</div>
+          <div class="factor"><span class="dot"></span>OCR confidence</div>
+          <div class="factor"><span class="dot"></span>Time difference</div>
+          <div class="factor"><span class="dot"></span>Road connectivity</div>
+          <div class="factor"><span class="dot"></span>Expected travel time</div>
+          <div class="factor"><span class="dot"></span>Direction + camera geometry</div>
+        </article>
+        <article class="card">
+          <h3>Valid transition example</h3>
+          <p class="mono">CAM A ——— 3.2 km ——— CAM B</p>
+          <p>Detected at A 10:00:00 · at B 10:04:30</p>
+          <p>Expected travel time 3–7 min · observed 4.5 min</p>
+          <p style="color:var(--lime)">High probability of a valid same-vehicle hop.</p>
+        </article>
+      </div>
+
+      <div class="card" style="margin-top:24px">
+        <h3>Command-center sketch</h3>
+        <div class="dash" style="margin-top:14px">
+          <div class="dash-side">
+            <div class="metric">Vehicles<b>124,832</b></div>
+            <div class="metric">Avg speed<b>31.4 km/h</b></div>
+            <div class="metric">Alerts<b style="color:var(--rose)">17</b></div>
+          </div>
+          <div class="dash-map">
+            <strong>CITY ANPR COMMAND CENTER</strong>
+            <div class="legend" style="margin-top:10px">
+              <span><i style="background:var(--rose)"></i>Congestion</span>
+              <span><i style="background:var(--amber)"></i>Moderate</span>
+              <span><i style="background:var(--lime)"></i>Free</span>
+            </div>
+            <div class="route"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="wrap">
+      Concept brief for a city-scale ANPR + trajectory + GIS analytics system aligned to a BEL-style requirement.
+      Open this file in any browser. No build step required.
+    </div>
+  </footer>
+</body>
+</html>
