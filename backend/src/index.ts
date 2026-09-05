@@ -66,5 +66,5 @@ app.get("/api/observations", async (req, res) => {
 
 const port = Number(process.env.PORT ?? 8000);
 app.listen(port, () => {
-  console.log(`TRAFFIS API on http://localhost:${port}`);
+  console.log(`Vaahan Drishti API on http://localhost:${port}`);
 });

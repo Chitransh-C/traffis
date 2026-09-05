@@ -1,4 +1,4 @@
-# TRAFFIS Command
+# Vaahan Drishti Command
 
 City ANPR command center for a Gwalior demo: cameras, plate tracks, congestion, and a camera-graph route engine. Events are **seeded into PostGIS** — there is no live ML or Kafka.
 
