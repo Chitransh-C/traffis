@@ -67,7 +67,7 @@ export function Shell({
         <div className="brand">
           <div className="mark">T</div>
           <div>
-            <h1>TRAFFIS COMMAND</h1>
+            <h1>Vaahan Drishti</h1>
             <p>
               BEL · {META.city} ANPR / GIS · {formatDateLabel(now)}
             </p>

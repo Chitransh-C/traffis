@@ -91,7 +91,7 @@ export function App() {
   if (!ready) {
     return (
       <div className="boot">
-        <h1>TRAFFIS</h1>
+        <h1>Vaahan Drishti</h1>
         <p>Loading city events from Postgres…</p>
       </div>
     );
